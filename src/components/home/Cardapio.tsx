@@ -241,11 +241,17 @@ export function Cardapio() {
                 role="tab"
                 aria-selected={sel}
                 onClick={() => irPara(DOM_ID[c.id])}
-                className={`relative shrink-0 self-center h-9 px-4 rounded-full border-[1.5px] before:absolute before:-inset-y-1 before:inset-x-0 before:content-[''] text-[12.5px] md:text-[13px] font-bold uppercase tracking-[0.07em] whitespace-nowrap transition-colors ${
-                  sel ? "bg-petroleo border-petroleo text-creme" : "border-petroleo/20 text-tinta-suave hover:border-petroleo/50 hover:text-petroleo"
-                }`}
+                className="group/aba shrink-0 h-11 flex items-center focus-visible:outline-none"
               >
-                {NOME_ABA[c.id]}
+                <span
+                  className={`h-9 px-4 inline-flex items-center rounded-full border-[1.5px] group-focus-visible/aba:outline-2 group-focus-visible/aba:outline-offset-2 group-focus-visible/aba:outline-azul text-[12.5px] md:text-[13px] font-bold uppercase tracking-[0.07em] whitespace-nowrap transition-colors ${
+                    sel
+                      ? "bg-petroleo border-petroleo text-creme"
+                      : "border-petroleo/20 text-tinta-suave group-hover/aba:border-petroleo/50 group-hover/aba:text-petroleo"
+                  }`}
+                >
+                  {NOME_ABA[c.id]}
+                </span>
               </button>
             );
           })}

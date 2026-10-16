@@ -1,0 +1,2625 @@
+{
+  "url": "https://the-poke-manaus.pages.dev",
+  "rotulo": "v4-producao",
+  "browser": "Microsoft Edge (Chromium)",
+  "browser_type": "edge",
+  "timestamp": "2026-10-16 02:56:34",
+  "viewports": {
+    "360": {
+      "width": 360,
+      "height": 740,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 360,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 154.6,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 145.1,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 81.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 93.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 324,
+          "displayedWidth": 250,
+          "ratio": "1.30"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 162,
+          "displayedWidth": 119,
+          "ratio": "1.37"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 162,
+          "displayedWidth": 90,
+          "ratio": "1.81"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 208,
+          "displayedWidth": 198,
+          "ratio": "1.05"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 100,
+          "displayedWidth": 137,
+          "ratio": "0.73"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 150,
+          "displayedWidth": 192,
+          "ratio": "0.78"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 500.5,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "Kaufmann.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/kaufmann/Kaufmann.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        },
+        {
+          "url": "power-red-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "size_kb": 18.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "size_kb": 18.4,
+          "type": "img"
+        },
+        {
+          "url": "move-on-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "size_kb": 17.6,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "size_kb": 17.4,
+          "type": "img"
+        },
+        {
+          "url": "sussa-vibe-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "size_kb": 16.6,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "size_kb": 16.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 1324,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 390,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 154.6,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 145.1,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 81.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 93.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 351,
+          "displayedWidth": 273,
+          "ratio": "1.29"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 175,
+          "displayedWidth": 130,
+          "ratio": "1.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 175,
+          "displayedWidth": 98,
+          "ratio": "1.78"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 226,
+          "displayedWidth": 217,
+          "ratio": "1.04"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 109,
+          "displayedWidth": 150,
+          "ratio": "0.73"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 150,
+          "displayedWidth": 192,
+          "ratio": "0.78"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 500.5,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "Kaufmann.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/kaufmann/Kaufmann.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        },
+        {
+          "url": "power-red-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "size_kb": 18.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "size_kb": 18.4,
+          "type": "img"
+        },
+        {
+          "url": "move-on-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "size_kb": 17.6,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "size_kb": 17.4,
+          "type": "img"
+        },
+        {
+          "url": "sussa-vibe-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "size_kb": 16.6,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "size_kb": 16.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 860,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "430": {
+      "width": 430,
+      "height": 932,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 430,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 154.6,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 145.1,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 81.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 93.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 387,
+          "displayedWidth": 304,
+          "ratio": "1.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 193,
+          "displayedWidth": 146,
+          "ratio": "1.32"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 193,
+          "displayedWidth": 110,
+          "ratio": "1.75"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 249,
+          "displayedWidth": 242,
+          "ratio": "1.03"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 120,
+          "displayedWidth": 167,
+          "ratio": "0.72"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 150,
+          "displayedWidth": 192,
+          "ratio": "0.78"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 500.5,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "Kaufmann.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/kaufmann/Kaufmann.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        },
+        {
+          "url": "power-red-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-200.webp",
+          "size_kb": 18.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-200.webp",
+          "size_kb": 18.4,
+          "type": "img"
+        },
+        {
+          "url": "move-on-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-200.webp",
+          "size_kb": 17.6,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-200.webp",
+          "size_kb": 17.4,
+          "type": "img"
+        },
+        {
+          "url": "sussa-vibe-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-200.webp",
+          "size_kb": 16.6,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-200.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-200.webp",
+          "size_kb": 16.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 676,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 753,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 159.4,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 149.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 83.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 95.9,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 162,
+          "ratio": "1.42"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 162,
+          "ratio": "1.42"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 123,
+          "ratio": "1.87"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 214,
+          "ratio": "1.40"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 138,
+          "ratio": "2.17"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 245,
+          "displayedWidth": 189,
+          "ratio": "1.30"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 122,
+          "displayedWidth": 130,
+          "ratio": "0.94"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 474,
+          "ratio": "0.48"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 964.8,
+        "img_kb": 869.2,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-mobile-900.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-mobile-900.webp",
+          "size_kb": 99.2,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "size_kb": 51.5,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "size_kb": 48.3,
+          "type": "img"
+        },
+        {
+          "url": "sussa-vibe-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-400.webp",
+          "size_kb": 47.7,
+          "type": "img"
+        },
+        {
+          "url": "ensolarado-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-400.webp",
+          "size_kb": 47.6,
+          "type": "img"
+        },
+        {
+          "url": "guaraflow-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "size_kb": 46.8,
+          "type": "img"
+        },
+        {
+          "url": "imune-se-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-400.webp",
+          "size_kb": 45.2,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 704,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1024": {
+      "width": 1024,
+      "height": 768,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1009,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 159.4,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 149.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 83.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 95.9,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 229,
+          "ratio": "1.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 229,
+          "ratio": "1.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 173,
+          "ratio": "1.78"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 212,
+          "ratio": "1.41"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 137,
+          "ratio": "2.19"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 327,
+          "displayedWidth": 268,
+          "ratio": "1.22"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-200.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 163,
+          "displayedWidth": 185,
+          "ratio": "0.88"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 423,
+          "ratio": "0.73"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 965.6,
+        "img_kb": 870.0,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 100.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "size_kb": 51.5,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "size_kb": 48.3,
+          "type": "img"
+        },
+        {
+          "url": "sussa-vibe-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-400.webp",
+          "size_kb": 47.7,
+          "type": "img"
+        },
+        {
+          "url": "ensolarado-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-400.webp",
+          "size_kb": 47.6,
+          "type": "img"
+        },
+        {
+          "url": "guaraflow-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "size_kb": 46.8,
+          "type": "img"
+        },
+        {
+          "url": "imune-se-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-400.webp",
+          "size_kb": 45.2,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 788,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1425,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 4,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTE SEU POKE",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0",
+          "width": 159.4,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "POKES DA CASA",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(2)",
+          "width": 149.5,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "SUCOS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "width": 83.8,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        },
+        {
+          "tag": "button",
+          "text": "BEBIDAS",
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "width": 95.9,
+          "height": 36,
+          "classes": "relative shrink-0 self-center h-9 px-4 rounded-full border-["
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 432,
+          "displayedWidth": 289,
+          "ratio": "1.49"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 386,
+          "displayedWidth": 289,
+          "ratio": "1.34"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 247,
+          "displayedWidth": 218,
+          "ratio": "1.13"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 270,
+          "ratio": "1.11"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 174,
+          "ratio": "1.72"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 411,
+          "displayedWidth": 340,
+          "ratio": "1.21"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/guaraflow-400.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 235,
+          "ratio": "0.98"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 247,
+          "displayedWidth": 388,
+          "ratio": "0.64"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 1252.7,
+        "img_kb": 1157.2,
+        "font_kb": 95.5,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 100.1,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-800.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-grande-800.webp",
+          "size_kb": 99.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "move-on-800.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/reset-green-400.webp",
+          "size_kb": 51.5,
+          "type": "img"
+        },
+        {
+          "url": "tropicalize-400.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/cardapio/tropicalize-400.webp",
+          "size_kb": 48.3,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 864,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    }
+  }
+}

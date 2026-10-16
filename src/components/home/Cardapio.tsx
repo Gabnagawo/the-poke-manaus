@@ -144,7 +144,7 @@ function ItemLista({ item }: { item: ItemCardapio }) {
     <li className="flex items-center gap-4 py-3.5 border-b border-petroleo/10 min-h-[72px]">
       <div className="flex-1 min-w-0">
         <h4 className="text-[16px] font-bold leading-tight">{item.nome}</h4>
-        <p className="text-[13.5px] text-tinta-suave mt-0.5">{item.descricao}</p>
+        {item.descricao && <p className="text-[13.5px] text-tinta-suave mt-0.5">{item.descricao}</p>}
       </div>
       <span className="text-[15px] font-bold num">{formatarPreco(item.preco)}</span>
       {qtd > 0 ? (

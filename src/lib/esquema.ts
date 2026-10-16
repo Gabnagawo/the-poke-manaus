@@ -144,7 +144,7 @@ Restaurante de poke em Manaus/AM, no Condomínio Park Mall Ephigênio (bairro Al
 - Anti-Ox (R$ 19,90): Morango + uva
 - Ensolarado (R$ 19,90): Morango + tangerina
 - Guaraflow (R$ 19,90): Pó de guaraná + xarope de guaraná + gelo + limão
-- Laranja (R$ 19,90): Suco natural da fruta
+- Laranja (R$ 19,90): Suco da fruta
 - Move On (R$ 28,90): Açaí + morango
 - Power Red (R$ 19,90): Frutas vermelhas
 - Reset Green (R$ 19,90): Suco verde: abacaxi, hortelã, couve-folha, brócolis, espinafre
@@ -152,12 +152,12 @@ Restaurante de poke em Manaus/AM, no Condomínio Park Mall Ephigênio (bairro Al
 - Mente Fresh (R$ 19,90): Abacaxi + hortelã
 - Sussa Vibe (R$ 19,90): Maracujá + morango
 - Imune-se (R$ 19,90): Acerola + tangerina
-- Limão (R$ 19,90): Suco natural da fruta
+- Limão (R$ 19,90): Suco da fruta
 
 ### Bebidas
 - Água mineral sem gás 500 ml: R$ 8,00
 - Água mineral com gás 500 ml: R$ 6,00
-- H2OH! Limoneto 500 ml: R$ 10,00
+- H2OH! Limoneto: R$ 10,00
 - Refrigerantes lata 350 ml (Coca-Cola, Coca-Cola Zero, Guaraná Antarctica, Fanta Laranja, Fanta Uva, Schweppes Citrus): R$ 10,00
 - Guaraná Antarctica Zero lata 350 ml: R$ 5,90
 - Cerveja Heineken 355 ml: R$ 18,00

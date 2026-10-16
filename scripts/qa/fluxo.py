@@ -1,5 +1,6 @@
 """Teste do fluxo de pedido no celular (390x844): montagem, limites, extras, sacola, edição,
-checkout, link do WhatsApp e botão voltar. Uso: python scripts/qa/fluxo.py <url> <pasta-saida>"""
+checkout, link do WhatsApp e botão voltar. Uso: python scripts/qa/fluxo.py <url> <pasta-saida>
+(NAVEGADOR=webkit roda no motor do Safari, como iPhone 13)"""
 import asyncio, json, os, re, sys, urllib.parse
 from playwright.async_api import async_playwright, expect
 
@@ -19,8 +20,13 @@ async def foto(pg, nome):
 async def main():
     erros = []
     async with async_playwright() as p:
-        b = await p.chromium.launch(channel="msedge", headless=True)
-        ctx = await b.new_context(viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True, device_scale_factor=2)
+        if os.environ.get("NAVEGADOR") == "webkit":
+            # motor do Safari, com o perfil de um iPhone 13
+            b = await p.webkit.launch(headless=True)
+            ctx = await b.new_context(**p.devices["iPhone 13"])
+        else:
+            b = await p.chromium.launch(channel="msedge", headless=True)
+            ctx = await b.new_context(viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True, device_scale_factor=2)
         pg = await ctx.new_page()
         pg.on("console", lambda m: erros.append(f"{m.type}: {m.text}") if m.type in ("error", "warning") else None)
         pg.on("pageerror", lambda e: erros.append(f"pageerror: {e}"))

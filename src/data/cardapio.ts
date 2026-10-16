@@ -149,7 +149,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     nome: "Laranja",
     categoria: "sucos",
     preco: 19.9,
-    descricao: "Suco natural da fruta",
+    descricao: "Suco da fruta",
     foto: "laranja",
   },
   {
@@ -213,7 +213,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     nome: "Limão",
     categoria: "sucos",
     preco: 19.9,
-    descricao: "Suco natural da fruta",
+    descricao: "Suco da fruta",
   },
 
   // --- BEBIDAS ---
@@ -236,7 +236,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     nome: "H2OH! Limoneto",
     categoria: "bebidas",
     preco: 10.0,
-    descricao: "Garrafa 500 ml",
+    descricao: "",
   },
   {
     id: "bebida-coca-cola",
@@ -299,7 +299,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     nome: "Heineken",
     categoria: "bebidas",
     preco: 18.0,
-    descricao: "Long neck 355 ml (proibida para menores de 18 anos)",
+    descricao: "355 ml (proibida para menores de 18)",
   },
 ];
 

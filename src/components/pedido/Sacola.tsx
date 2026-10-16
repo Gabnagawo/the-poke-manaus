@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { usePedido, type DadosCliente, type FormaPagamento, type LinhaSacola } from "@/lib/pedido";
 import { LOJA, WHATSAPP_PEDIDOS } from "@/lib/loja";
 import { formatarPreco, gerarLinkWhatsApp } from "@/lib/whatsapp";
-import { ehCopo, ehFotoInteira, fotoSrc, PASTEL } from "@/lib/fotos";
+import { dimensoes, ehCopo, ehFotoInteira, fotoSrc, PASTEL } from "@/lib/fotos";
 import { irPara } from "@/lib/rolagem";
 import { Painel } from "@/components/ui/Painel";
 import { Contador } from "@/components/ui/Contador";
@@ -37,6 +37,7 @@ function Miniatura({ linha }: { linha: LinhaSacola }) {
       {linha.foto ? (
         <img
           src={fotoSrc(linha.foto, 200)}
+          {...dimensoes(linha.foto)}
           alt=""
           className={
             ehFotoInteira(linha.foto)

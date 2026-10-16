@@ -1,6 +1,14 @@
 // Fotos do cardápio: recortes reais (iFood) já aparados no tamanho do prato,
 // gerados por scripts/gerar-fotos-cardapio.py em 200, 400 e 800 px de largura.
 
+import { DIMENSOES_FOTOS } from "@/data/dimensoes-fotos";
+
+/** width/height reais da foto aparada (proporção), para as <img> */
+export function dimensoes(slug: string) {
+  const d = DIMENSOES_FOTOS[slug];
+  return d ? { width: d[0], height: d[1] } : {};
+}
+
 export function fotoSrc(slug: string, largura: 200 | 400 | 800 = 400) {
   return `/images/cardapio/${slug}-${largura}.webp`;
 }

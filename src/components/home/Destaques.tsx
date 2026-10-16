@@ -5,7 +5,7 @@
 
 import { aoClicarAncora } from "@/lib/rolagem";
 import { formatarPreco } from "@/lib/whatsapp";
-import { fotoSrc, fotoSrcSet } from "@/lib/fotos";
+import { dimensoes, fotoSrc, fotoSrcSet } from "@/lib/fotos";
 import { IconeSeta } from "@/components/ui/Icones";
 
 const CARDS = [
@@ -70,6 +70,7 @@ export function Destaques() {
               <img
                 src={fotoSrc(c.foto, 800)}
                 srcSet={fotoSrcSet(c.foto)}
+                {...dimensoes(c.foto)}
                 sizes={i === 0 ? "(min-width: 768px) 30vw, 90vw" : "(min-width: 768px) 30vw, 45vw"}
                 alt=""
                 loading="lazy"

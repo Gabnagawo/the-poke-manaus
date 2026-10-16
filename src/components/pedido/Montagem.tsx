@@ -18,7 +18,7 @@ import {
   type Tamanho,
 } from "@/data/montagem";
 import { formatarPreco } from "@/lib/whatsapp";
-import { fotoSrc } from "@/lib/fotos";
+import { dimensoes, fotoSrc } from "@/lib/fotos";
 import { Painel } from "@/components/ui/Painel";
 import { Contador } from "@/components/ui/Contador";
 import { IconeCheck, IconeFechar, IconeMais } from "@/components/ui/Icones";
@@ -295,7 +295,7 @@ function CorpoMontagem({
           <div className="flex gap-4 items-center">
             <div className="relative shrink-0 w-[84px] h-[84px] rounded-[16px] bg-areia overflow-hidden">
               {foto && (
-                <img src={fotoSrc(foto, 200)} alt="" className="foto-prato absolute inset-0 m-auto w-[88%] h-[88%] object-contain" />
+                <img src={fotoSrc(foto, 200)} {...dimensoes(foto)} alt="" className="foto-prato absolute inset-0 m-auto w-[88%] h-[88%] object-contain" />
               )}
             </div>
             <p className="text-[15px] leading-[1.45] text-tinta-suave">

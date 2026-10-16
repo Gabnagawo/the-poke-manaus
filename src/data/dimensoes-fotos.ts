@@ -1,0 +1,22 @@
+// Gerado por scripts/gerar-fotos-cardapio.py — não editar à mão.
+export const DIMENSOES_FOTOS: Record<string, [number, number]> = {
+  "anti-ox": [458, 668],
+  "ensolarado": [458, 669],
+  "guaraflow": [458, 668],
+  "imune-se": [458, 668],
+  "laranja": [675, 675],
+  "mente-fresh": [495, 675],
+  "move-on": [458, 669],
+  "poke-grande": [857, 656],
+  "poke-grande-frango-grelhado": [835, 615],
+  "poke-makaha": [715, 555],
+  "poke-medio": [796, 635],
+  "poke-medio-frango-grelhado": [742, 595],
+  "poke-medio-frango-teriyaki": [732, 558],
+  "poke-pequeno": [647, 557],
+  "poke-pequeno-frango-grelhado": [635, 533],
+  "power-red": [458, 668],
+  "reset-green": [458, 669],
+  "sussa-vibe": [458, 668],
+  "tropicalize": [458, 668],
+};

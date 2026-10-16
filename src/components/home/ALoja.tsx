@@ -2,7 +2,7 @@
 // (como o "HEALTHY FAST FOOD ON THE GO" da limon.no).
 
 import { LOJA } from "@/lib/loja";
-import { fotoSrc, fotoSrcSet } from "@/lib/fotos";
+import { dimensoes, fotoSrc, fotoSrcSet } from "@/lib/fotos";
 import { IconeInstagram } from "@/components/ui/Icones";
 
 export function ALoja() {
@@ -35,6 +35,7 @@ export function ALoja() {
           <img
             src={fotoSrc("poke-makaha", 400)}
             srcSet={fotoSrcSet("poke-makaha")}
+            {...dimensoes("poke-makaha")}
             sizes="(min-width: 768px) 32vw, 58vw"
             alt="Poke Makaha"
             loading="lazy"
@@ -44,6 +45,7 @@ export function ALoja() {
           <img
             src={fotoSrc("guaraflow", 400)}
             srcSet={fotoSrcSet("guaraflow")}
+            {...dimensoes("guaraflow")}
             sizes="(min-width: 768px) 16vw, 28vw"
             alt="Suco Guaraflow"
             loading="lazy"

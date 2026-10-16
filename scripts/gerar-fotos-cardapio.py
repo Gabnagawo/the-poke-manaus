@@ -14,6 +14,7 @@ OUT = os.path.join(RAIZ, "public", "images", "cardapio")
 os.makedirs(OUT, exist_ok=True)
 COPOS = {"anti-ox", "ensolarado", "guaraflow", "imune-se", "mente-fresh", "move-on", "power-red", "reset-green", "sussa-vibe", "tropicalize"}
 
+DIMS = {}
 for nome in sorted(os.listdir(REC)):
     if not nome.endswith(".webp"):
         continue
@@ -34,4 +35,11 @@ for nome in sorted(os.listdir(REC)):
     for w in (200, 400, 800):
         alvo = im if im.width <= w else im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
         alvo.save(os.path.join(OUT, f"{slug}-{w}.webp"), "WEBP", quality=82, method=6)
+    DIMS[slug] = im.size
     print(slug, im.size)
+
+# proporção de cada foto, para o width/height das <img> (o navegador reserva o espaço antes de baixar)
+linhas = ",\n".join(f'  "{s}": [{w}, {h}]' for s, (w, h) in sorted(DIMS.items()))
+with open(os.path.join(RAIZ, "src", "data", "dimensoes-fotos.ts"), "w", encoding="utf-8") as f:
+    f.write("// Gerado por scripts/gerar-fotos-cardapio.py — não editar à mão.\n")
+    f.write("export const DIMENSOES_FOTOS: Record<string, [number, number]> = {\n" + linhas + ",\n};\n")

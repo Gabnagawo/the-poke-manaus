@@ -8,7 +8,7 @@ import { CATEGORIAS_CARDAPIO, type ItemCardapio } from "@/data/cardapio";
 import { temReceita } from "@/data/montagem";
 import { usePedido } from "@/lib/pedido";
 import { formatarPreco } from "@/lib/whatsapp";
-import { ehCopo, ehFotoInteira, fotoSrc, fotoSrcSet, PASTEL } from "@/lib/fotos";
+import { dimensoes, ehCopo, ehFotoInteira, fotoSrc, fotoSrcSet, PASTEL } from "@/lib/fotos";
 import { irPara } from "@/lib/rolagem";
 import { Contador } from "@/components/ui/Contador";
 import { IconeMais, IconeSeta } from "@/components/ui/Icones";
@@ -49,6 +49,7 @@ function Foto({ item, categoria }: { item: ItemCardapio; categoria: string }) {
         <img
           src={fotoSrc(slug, 400)}
           srcSet={fotoSrcSet(slug)}
+          {...dimensoes(slug)}
           sizes="(min-width: 640px) 300px, 96px"
           alt=""
           loading="lazy"
@@ -59,6 +60,7 @@ function Foto({ item, categoria }: { item: ItemCardapio; categoria: string }) {
         <img
           src={fotoSrc(slug, 400)}
           srcSet={fotoSrcSet(slug)}
+          {...dimensoes(slug)}
           sizes="(min-width: 640px) 300px, 96px"
           alt=""
           loading="lazy"

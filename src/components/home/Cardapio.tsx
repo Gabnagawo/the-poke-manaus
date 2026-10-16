@@ -225,7 +225,7 @@ export function Cardapio() {
       <div className="sticky top-[var(--altura-topo)] z-20 bg-creme mt-6 md:mt-10 border-b border-petroleo/12">
         <div
           ref={trilho}
-          className="sem-barra mx-auto max-w-[1240px] px-3 md:px-6 h-[52px] flex items-stretch gap-1 overflow-x-auto"
+          className="sem-barra mx-auto max-w-[1240px] px-5 md:px-8 h-[52px] flex items-center gap-2 overflow-x-auto"
           role="tablist"
           aria-label="Categorias do cardápio"
         >
@@ -241,16 +241,11 @@ export function Cardapio() {
                 role="tab"
                 aria-selected={sel}
                 onClick={() => irPara(DOM_ID[c.id])}
-                className={`relative shrink-0 px-3 md:px-4 text-[13px] md:text-[14px] font-bold uppercase tracking-[0.07em] whitespace-nowrap transition-colors ${
-                  sel ? "text-petroleo" : "text-tinta-suave hover:text-petroleo"
+                className={`relative shrink-0 self-center h-9 px-4 rounded-full border-[1.5px] before:absolute before:-inset-y-1 before:inset-x-0 before:content-[''] text-[12.5px] md:text-[13px] font-bold uppercase tracking-[0.07em] whitespace-nowrap transition-colors ${
+                  sel ? "bg-petroleo border-petroleo text-creme" : "border-petroleo/20 text-tinta-suave hover:border-petroleo/50 hover:text-petroleo"
                 }`}
               >
                 {NOME_ABA[c.id]}
-                <span
-                  className={`absolute left-3 right-3 md:left-4 md:right-4 bottom-0 h-[3px] rounded-full bg-petroleo transition-transform duration-300 origin-left ${
-                    sel ? "scale-x-100" : "scale-x-0"
-                  }`}
-                />
               </button>
             );
           })}

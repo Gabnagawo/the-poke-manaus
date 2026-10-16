@@ -1,0 +1,771 @@
+{
+  "url": "http://127.0.0.1:3005/",
+  "rotulo": "v4-final-aprovado",
+  "browser": "Microsoft Edge (Chromium)",
+  "browser_type": "edge",
+  "timestamp": "2026-10-16 04:25:36",
+  "viewports": {
+    "360": {
+      "width": 360,
+      "height": 740,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 360,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 1685.2,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "0_9nmjnj1e8_p.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/0_9nmjnj1e8_p.js",
+          "size_kb": 50.4,
+          "type": "script"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "2r4s4h5xul1n-.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/2r4s4h5xul1n-.js",
+          "size_kb": 28.1,
+          "type": "script"
+        }
+      ],
+      "lcp_ms": 256,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 390,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 1685.2,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "0_9nmjnj1e8_p.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/0_9nmjnj1e8_p.js",
+          "size_kb": 50.4,
+          "type": "script"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "2r4s4h5xul1n-.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/2r4s4h5xul1n-.js",
+          "size_kb": 28.1,
+          "type": "script"
+        }
+      ],
+      "lcp_ms": 144,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "430": {
+      "width": 430,
+      "height": 932,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 430,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 1685.2,
+        "img_kb": 405.0,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 71.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "0_9nmjnj1e8_p.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/0_9nmjnj1e8_p.js",
+          "size_kb": 50.4,
+          "type": "script"
+        },
+        {
+          "url": "poke-makaha-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-makaha-400.webp",
+          "size_kb": 38.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-grande-400.webp",
+          "size_kb": 34.4,
+          "type": "img"
+        },
+        {
+          "url": "2r4s4h5xul1n-.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/2r4s4h5xul1n-.js",
+          "size_kb": 28.1,
+          "type": "script"
+        }
+      ],
+      "lcp_ms": 248,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 753,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2149.4,
+        "img_kb": 869.2,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-mobile-900.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-mobile-900.webp",
+          "size_kb": 99.2,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/reset-green-400.webp",
+          "size_kb": 51.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 180,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1024": {
+      "width": 1024,
+      "height": 768,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1009,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2150.2,
+        "img_kb": 870.0,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 100.1,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        },
+        {
+          "url": "reset-green-400.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/reset-green-400.webp",
+          "size_kb": 51.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 236,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1425,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2437.3,
+        "img_kb": 1157.2,
+        "font_kb": 95.5,
+        "script_kb": 529.3,
+        "css_kb": 0.0,
+        "other_kb": 655.3
+      },
+      "top_10_files": [
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "http://127.0.0.1:3005/",
+          "full_url": "http://127.0.0.1:3005/",
+          "size_kb": 274.1,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://127.0.0.1:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "http://127.0.0.1:3005/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 100.1,
+          "type": "img"
+        },
+        {
+          "url": "poke-grande-800.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-grande-800.webp",
+          "size_kb": 99.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://127.0.0.1:3005/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 70.2,
+          "type": "other"
+        },
+        {
+          "url": "move-on-800.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/move-on-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://127.0.0.1:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 228,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    }
+  }
+}

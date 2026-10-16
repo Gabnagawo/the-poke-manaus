@@ -1,7 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/home/Hero";
-import { Faixa } from "@/components/home/Faixa";
 import { Destaques } from "@/components/home/Destaques";
 import { Cardapio } from "@/components/home/Cardapio";
 import { ALoja } from "@/components/home/ALoja";
@@ -23,7 +22,6 @@ export default function Inicio() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Faixa />
         <Destaques />
         <Cardapio />
         <ALoja />

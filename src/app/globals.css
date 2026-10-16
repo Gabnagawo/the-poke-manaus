@@ -278,16 +278,6 @@ body {
   animation: mesa-zoom 1.6s var(--ease-saida) both;
 }
 
-/* Faixa com o slogan correndo (Poke House) */
-@keyframes faixa {
-  to {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-.faixa-trilho {
-  animation: faixa 38s linear infinite;
-}
-
 /* Ajuda visual quando um passo obrigatório falta */
 @keyframes tremer {
   0%,
@@ -335,9 +325,6 @@ body {
   .entrar-letreiro {
     animation: none;
     transform: rotate(-7deg);
-  }
-  .faixa-trilho {
-    animation: none;
   }
 }
 

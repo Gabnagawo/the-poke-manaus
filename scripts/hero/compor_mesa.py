@@ -12,7 +12,7 @@ REC = os.path.join(RAIZ, "public", "images", "recortes")
 OUT = os.path.join(RAIZ, "public", "images", "hero")
 os.makedirs(OUT, exist_ok=True)
 
-MESA = (44, 124, 160)      # azul da marca (círculo do logo, #2A7CA1), um pouco mais claro
+MESA = (36, 110, 146)      # azul da marca (#2A7CA1) um pouco mais escuro: texto creme pequeno passa de 4,5:1
 
 
 def fundo(w, h, cor=MESA):
@@ -26,7 +26,7 @@ def fundo(w, h, cor=MESA):
         rr = int(r * i / 40)
         d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], fill=int(70 * (1 - i / 40)))
     luz = luz.filter(ImageFilter.GaussianBlur(max(w, h) // 12))
-    clara = Image.new("RGB", (w, h), tuple(min(255, c + 26) for c in cor))
+    clara = Image.new("RGB", (w, h), tuple(min(255, c + 14) for c in cor))
     escura = Image.new("RGB", (w, h), tuple(max(0, c - 22) for c in cor))
     img = Image.composite(clara, escura, luz.point(lambda v: min(255, v * 3)))
     img = Image.blend(base, img, 0.85)

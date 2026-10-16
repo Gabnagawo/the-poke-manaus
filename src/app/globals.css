@@ -353,6 +353,13 @@ body {
 .painel-rolagem {
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(14 76 116 / 0.28) transparent;
+}
+
+input,
+textarea {
+  caret-color: var(--color-azul);
 }
 
 @layer components {

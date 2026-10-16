@@ -63,7 +63,7 @@ export function Destaques() {
             style={{ "--atraso": `${[0, 200, 400][i]}ms` } as React.CSSProperties}
           >
             <div
-              className={`relative overflow-hidden rounded-[18px] ${c.cor} ${
+              className={`relative overflow-hidden rounded-[16px] ${c.cor} ${
                 i === 0 ? "aspect-[16/10] md:aspect-square" : "aspect-square"
               }`}
             >

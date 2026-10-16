@@ -21,7 +21,7 @@ import { formatarPreco } from "@/lib/whatsapp";
 import { fotoSrc } from "@/lib/fotos";
 import { Painel } from "@/components/ui/Painel";
 import { Contador } from "@/components/ui/Contador";
-import { IconeCheck, IconeFechar } from "@/components/ui/Icones";
+import { IconeCheck, IconeFechar, IconeMais } from "@/components/ui/Icones";
 
 const FOTO_TAMANHO: Record<Tamanho, string> = { P: "poke-pequeno", M: "poke-medio", G: "poke-grande" };
 
@@ -237,8 +237,8 @@ function CorpoMontagem({
         <div className="mx-auto w-full flex items-start gap-3 px-5 pt-3 md:pt-6">
           <div className="md:hidden absolute left-1/2 top-1.5 -translate-x-1/2 w-10 h-1 rounded-full bg-petroleo/20" aria-hidden />
           <div className="flex-1 min-w-0 pt-2">
-            <p className="rotulo text-tinta-suave">{porTamanho ? "Monte seu poke" : "Receita da casa"}</p>
-            <h2 className="titulo text-[26px] md:text-[34px] mt-1.5">{config.nome}</h2>
+            <h2 className="titulo text-[26px] md:text-[34px]">{config.nome}</h2>
+            <p className="mt-1 text-[14px] text-tinta-suave">{porTamanho ? "Monte etapa por etapa" : "Receita da casa"}</p>
           </div>
           <button
             type="button"
@@ -411,10 +411,10 @@ function CorpoMontagem({
                             <button
                               type="button"
                               onClick={() => mudarQuantidade(e, o.id, 1)}
-                              className="grid place-items-center w-11 h-11 rounded-full bg-creme-2 text-[22px] leading-none"
+                              className="grid place-items-center w-11 h-11 rounded-full bg-creme-2"
                               aria-label={`Adicionar ${o.nome}`}
                             >
-                              +
+                              <IconeMais />
                             </button>
                           )}
                         </li>

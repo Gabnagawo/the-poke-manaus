@@ -19,7 +19,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative overflow-hidden bg-[#2c7ca0] text-creme h-[calc(100svh-var(--altura-topo)-44px)] min-h-[600px] max-h-[900px] lg:h-[calc(100svh-var(--altura-topo)-52px)] lg:min-h-[580px] lg:max-h-[860px]"
+      className="relative overflow-hidden bg-[#246e92] text-creme h-[calc(100svh-var(--altura-topo)-44px)] min-h-[600px] max-h-[900px] lg:h-[calc(100svh-var(--altura-topo)-52px)] lg:min-h-[580px] lg:max-h-[860px]"
       aria-labelledby="titulo-hero"
     >
       <picture>
@@ -42,14 +42,9 @@ export function Hero() {
       </picture>
 
       <div className="relative h-full mx-auto max-w-[1240px] px-5 md:px-8 pt-9 pb-8 md:pt-14 lg:pt-0 lg:pb-16 flex flex-col lg:justify-end">
-        <p className="rotulo text-creme/85 entrar" style={{ "--atraso": "80ms" } as React.CSSProperties}>
-          <span className="hidden md:inline">{LOJA.nome} · </span>
-          {LOJA.local}
-        </p>
-
         <h1
           id="titulo-hero"
-          className="titulo mt-3 text-[clamp(56px,16.5vw,72px)] md:text-[clamp(80px,8.2vw,120px)] leading-[0.88] entrar"
+          className="titulo text-[clamp(56px,16.5vw,72px)] md:text-[clamp(80px,8.2vw,120px)] leading-[0.88] entrar"
           style={{ "--atraso": "160ms" } as React.CSSProperties}
         >
           Monte
@@ -78,10 +73,11 @@ export function Hero() {
         </div>
 
         <p
-          className="hidden lg:block mt-5 text-[14px] font-medium text-creme/90 min-h-5 entrar"
+          className="hidden md:block mt-5 text-[15px] font-medium text-creme min-h-5 entrar"
           style={{ "--atraso": "680ms" } as React.CSSProperties}
         >
-          {status ?? " "}
+          {LOJA.local}
+          {status ? ` · ${status}` : ""}
         </p>
       </div>
     </section>

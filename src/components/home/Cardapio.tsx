@@ -41,7 +41,7 @@ function Foto({ item, categoria }: { item: ItemCardapio; categoria: string }) {
   const cor = PASTEL[categoria];
   return (
     <div
-      className={`relative overflow-hidden ${cor} shrink-0 w-[96px] h-[96px] rounded-[14px] sm:w-full sm:h-auto sm:aspect-square sm:rounded-[18px]`}
+      className={`relative overflow-hidden ${cor} shrink-0 w-[96px] h-[96px] rounded-[14px] sm:w-full sm:h-auto sm:aspect-square sm:rounded-[16px]`}
     >
       {!slug ? (
         <Logo className="absolute inset-0 m-auto w-[62%] h-auto text-petroleo/25" titulo="" />

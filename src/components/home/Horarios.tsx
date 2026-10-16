@@ -64,7 +64,7 @@ export function Horarios() {
               Instagram
             </a>
           </div>
-          <p className="mt-4 text-[13px] text-tinta-suave">No iFood, o pedido mínimo é de R$ 20,00.</p>
+          <p className="mt-4 text-[13px] text-petroleo/90">No iFood, o pedido mínimo é de R$ 20,00.</p>
         </div>
 
         <img

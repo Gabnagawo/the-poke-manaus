@@ -88,7 +88,7 @@ export function Header({ inicio = true }: { inicio?: boolean }) {
           </div>
 
           {/* centro */}
-          <Link href="/" className="block py-2" aria-label="The Poke Manaus, início">
+          <Link href="/" className="flex items-center min-h-11 px-1" aria-label="The Poke Manaus, início">
             <Logo className="h-[26px] md:h-[34px] w-auto" />
           </Link>
 
@@ -98,7 +98,7 @@ export function Header({ inicio = true }: { inicio?: boolean }) {
               href={LOJA.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:inline-flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.08em] hover:text-azul transition-colors"
+              className="hidden lg:inline-flex items-center gap-2 min-h-11 text-[13px] font-bold uppercase tracking-[0.08em] hover:text-azul transition-colors"
             >
               <IconeInstagram className="w-[18px] h-[18px]" />
               Instagram

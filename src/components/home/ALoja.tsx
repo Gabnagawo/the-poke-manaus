@@ -2,7 +2,7 @@
 // (como o "HEALTHY FAST FOOD ON THE GO" da limon.no).
 
 import { LOJA } from "@/lib/loja";
-import { fotoSrc } from "@/lib/fotos";
+import { fotoSrc, fotoSrcSet } from "@/lib/fotos";
 import { IconeInstagram } from "@/components/ui/Icones";
 
 export function ALoja() {
@@ -33,14 +33,18 @@ export function ALoja() {
 
         <div className="revelar relative aspect-[5/4] rounded-[22px] bg-[#c97b5b] overflow-hidden" style={{ "--atraso": "200ms" } as React.CSSProperties}>
           <img
-            src={fotoSrc("poke-makaha", 800)}
+            src={fotoSrc("poke-makaha", 400)}
+            srcSet={fotoSrcSet("poke-makaha")}
+            sizes="(min-width: 768px) 32vw, 58vw"
             alt="Poke Makaha"
             loading="lazy"
             decoding="async"
             className="foto-prato absolute left-[6%] top-[12%] w-[62%] h-auto"
           />
           <img
-            src={fotoSrc("guaraflow", 800)}
+            src={fotoSrc("guaraflow", 400)}
+            srcSet={fotoSrcSet("guaraflow")}
+            sizes="(min-width: 768px) 16vw, 28vw"
             alt="Suco Guaraflow"
             loading="lazy"
             decoding="async"

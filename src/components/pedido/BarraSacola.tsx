@@ -60,7 +60,7 @@ export function BarraSacola() {
 
       {/* Desktop: aviso no canto */}
       <div
-        className={`hidden md:flex fixed bottom-6 right-6 z-40 items-center gap-4 rounded-full bg-petroleo text-creme pl-5 pr-2 py-2 shadow-[0_10px_30px_rgb(10_58_89/0.3)] transition-[translate,opacity] duration-300 ${
+        className={`hidden md:flex fixed bottom-6 right-6 z-40 items-center gap-4 rounded-full bg-petroleo text-creme pl-5 pr-1.5 py-1.5 shadow-[0_10px_30px_rgb(10_58_89/0.3)] transition-[translate,opacity] duration-300 ${
           aviso && !algoAberto ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0 pointer-events-none"
         }`}
         role="status"
@@ -69,7 +69,7 @@ export function BarraSacola() {
           <IconeCheck className="w-4 h-4 text-amarelo" />
           {aviso?.texto}
         </span>
-        <button type="button" onClick={abrirSacola} className="botao botao-amarelo min-h-10 h-10 px-4 text-[12px]">
+        <button type="button" onClick={abrirSacola} className="botao botao-amarelo min-h-11 h-11 px-4 text-[12px]">
           Ver sacola
         </button>
       </div>

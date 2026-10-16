@@ -4,7 +4,7 @@
 
 import { useEffect, useState } from "react";
 import { LOJA, statusLoja, type StatusLoja } from "@/lib/loja";
-import { fotoSrc } from "@/lib/fotos";
+import { fotoSrc, fotoSrcSet } from "@/lib/fotos";
 import { IconeInstagram, IconeLocal, IconeSetaExterna } from "@/components/ui/Icones";
 
 export function Horarios() {
@@ -68,7 +68,9 @@ export function Horarios() {
         </div>
 
         <img
-          src={fotoSrc("power-red", 800)}
+          src={fotoSrc("power-red", 400)}
+          srcSet={fotoSrcSet("power-red")}
+          sizes="(min-width: 768px) 30vw, 150px"
           alt=""
           loading="lazy"
           decoding="async"

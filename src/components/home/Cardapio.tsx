@@ -214,11 +214,11 @@ export function Cardapio() {
 
   return (
     <section id="cardapio" className="pb-20 md:pb-28" aria-labelledby="titulo-cardapio">
-      <div className="mx-auto max-w-[1240px] px-5 md:px-8 pt-4 md:pt-8 revelar">
-        <h2 id="titulo-cardapio" className="titulo text-[40px] md:text-[64px]">
-          Cardápio
+      <div className="mx-auto max-w-[1240px] px-5 md:px-8 pt-4 md:pt-8 revelar text-center">
+        <h2 id="titulo-cardapio" className="titulo text-[36px] md:text-[56px]">
+          Peça por aqui
         </h2>
-        <p className="mt-3 max-w-[560px] text-[16px] md:text-[18px] leading-[1.45] text-tinta-suave">
+        <p className="mt-3 mx-auto max-w-[560px] text-[16px] md:text-[18px] leading-[1.45] text-tinta-suave">
           Monte a sacola aqui e envie o pedido pelo WhatsApp. Se preferir, a loja também está no iFood.
         </p>
       </div>
@@ -227,7 +227,7 @@ export function Cardapio() {
       <div className="sticky top-[var(--altura-topo)] z-20 bg-creme mt-6 md:mt-10 border-b border-petroleo/12">
         <div
           ref={trilho}
-          className="sem-barra mx-auto max-w-[1240px] px-5 md:px-8 h-[52px] flex items-center gap-2 overflow-x-auto"
+          className="sem-barra mx-auto max-w-[1240px] px-5 md:px-8 h-[52px] flex items-center gap-2 overflow-x-auto lg:justify-center"
           role="tablist"
           aria-label="Categorias do cardápio"
         >
@@ -248,7 +248,7 @@ export function Cardapio() {
                 <span
                   className={`h-9 px-4 inline-flex items-center rounded-full border-[1.5px] group-focus-visible/aba:outline-2 group-focus-visible/aba:outline-offset-2 group-focus-visible/aba:outline-azul text-[12.5px] md:text-[13px] font-bold uppercase tracking-[0.07em] whitespace-nowrap transition-colors ${
                     sel
-                      ? "bg-petroleo border-petroleo text-creme"
+                      ? "bg-amarelo border-amarelo text-tinta-escura"
                       : "border-petroleo/20 text-tinta-suave group-hover/aba:border-petroleo/50 group-hover/aba:text-petroleo"
                   }`}
                 >

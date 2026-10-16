@@ -1,20 +1,20 @@
 "use client";
 
-// Hero: mesa vista de cima com as tigelas reais (limon.no), título grande e o
-// slogan da marca no letreiro manuscrito (Kaufmann), inclinado como o "FRESH CATCH".
+// Hero da versão Honi Poke: foto de ponta a ponta com o slogan grande na cor de ação
+// ("LIFE IN A BOWL" da Honi) e a escolha do jeito de pedir logo de cara.
+// Celular: painel flutuante embaixo com Entrega / Retirar (o painel rosa da Honi, aqui em azul).
 
 import { useEffect, useState } from "react";
 import { preload } from "react-dom";
-import { usePedido } from "@/lib/pedido";
+import { usePedido, type TipoEntrega } from "@/lib/pedido";
 import { LOJA, statusLoja } from "@/lib/loja";
-import { aoClicarAncora } from "@/lib/rolagem";
-import { IconeSeta } from "@/components/ui/Icones";
+import { irPara } from "@/lib/rolagem";
+import { IconeSetaExterna } from "@/components/ui/Icones";
 
 const MESA_CELULAR = "/images/hero/mesa-mobile-720.webp 720w, /images/hero/mesa-mobile-900.webp 900w, /images/hero/mesa-mobile.webp 1080w";
 const MESA_DESKTOP = "/images/hero/mesa-desktop-1600.webp 1600w, /images/hero/mesa-desktop.webp 2400w";
 
 export function Hero() {
-  // a foto do hero é o maior elemento da primeira tela: começa a baixar junto com o HTML
   preload("/images/hero/mesa-mobile-720.webp", {
     as: "image",
     imageSrcSet: MESA_CELULAR,
@@ -29,24 +29,25 @@ export function Hero() {
     fetchPriority: "high",
     media: "(min-width: 1024px)",
   });
-  const { abrirMontagem } = usePedido();
+  const { definirEntrega } = usePedido();
   const [status, setStatus] = useState<string | null>(null);
 
   useEffect(() => {
     setStatus(statusLoja().texto);
   }, []);
 
+  const pedir = (tipo: TipoEntrega) => {
+    definirEntrega(tipo);
+    irPara("cardapio");
+  };
+
   return (
     <section
-      className="relative overflow-hidden bg-[#246e92] text-creme h-[calc(100svh-var(--altura-topo)-44px)] min-h-[600px] max-h-[900px] lg:h-[calc(100svh-var(--altura-topo)-52px)] lg:min-h-[580px] lg:max-h-[860px]"
+      className="relative overflow-hidden bg-[#16547a] text-petroleo h-[calc(100svh-var(--altura-topo))] min-h-[620px] max-h-[920px] lg:h-[calc(100svh-var(--altura-topo)-40px)] lg:min-h-[580px] lg:max-h-[860px]"
       aria-labelledby="titulo-hero"
     >
       <picture>
-        <source
-          media="(min-width: 1024px)"
-          srcSet={MESA_DESKTOP}
-          sizes="100vw"
-        />
+        <source media="(min-width: 1024px)" srcSet={MESA_DESKTOP} sizes="100vw" />
         <img
           src="/images/hero/mesa-mobile-720.webp"
           srcSet={MESA_CELULAR}
@@ -60,44 +61,68 @@ export function Hero() {
         />
       </picture>
 
-      <div className="relative h-full mx-auto max-w-[1240px] px-5 md:px-8 pt-9 pb-8 md:pt-14 lg:pt-0 lg:pb-16 flex flex-col lg:justify-end">
+      <div className="relative h-full mx-auto max-w-[1240px] px-5 md:px-8 pt-10 md:pt-16 lg:pt-0 lg:pb-16 flex flex-col items-center text-center lg:items-start lg:text-left lg:justify-end">
         <h1
           id="titulo-hero"
-          className="titulo text-[clamp(56px,16.5vw,72px)] md:text-[clamp(80px,8.2vw,120px)] leading-[0.88] entrar"
-          style={{ "--atraso": "160ms" } as React.CSSProperties}
+          className="titulo text-amarelo text-[clamp(44px,12.6vw,58px)] md:text-[clamp(60px,6.4vw,96px)] leading-[0.95] entrar"
+          style={{ "--atraso": "120ms" } as React.CSSProperties}
         >
-          Monte
+          Rápido,
           <br />
-          seu poke
+          saboroso <span className="whitespace-nowrap">&amp;</span>
+          <br /> nutritivo.
         </h1>
 
         <p
-          className="letreiro entrar-letreiro self-start whitespace-nowrap text-amarelo text-[clamp(28px,8.4vw,38px)] md:text-[clamp(44px,4.4vw,64px)] mt-5 ml-1 md:mt-5 md:ml-2 origin-left"
-          style={{ "--atraso": "420ms" } as React.CSSProperties}
+          className="mt-4 md:mt-6 max-w-[30ch] text-[17px] md:text-[21px] leading-[1.35] font-medium entrar"
+          style={{ "--atraso": "300ms" } as React.CSSProperties}
         >
-          Rápido, saboroso &amp; nutritivo.
+          Monte o seu poke ou escolha uma receita da casa. {LOJA.local}.
         </p>
 
-        <div
-          className="mt-8 md:mt-10 flex flex-wrap items-center gap-3 entrar"
-          style={{ "--atraso": "560ms" } as React.CSSProperties}
-        >
-          <button type="button" onClick={() => abrirMontagem("M")} className="botao botao-amarelo px-5 md:px-6">
-            Monte o seu
-            <IconeSeta />
+        {/* Desktop: jeito de pedir junto do título */}
+        <div className="hidden lg:flex mt-10 items-center gap-3 entrar" style={{ "--atraso": "460ms" } as React.CSSProperties}>
+          <button type="button" onClick={() => pedir("entrega")} className="botao botao-amarelo">
+            Pedir para entregar
           </button>
-          <a href="#cardapio" onClick={(e) => aoClicarAncora(e, "cardapio")} className="botao botao-contorno text-creme px-5 md:px-6">
-            Ver cardápio
+          <button type="button" onClick={() => pedir("retirada")} className="botao botao-contorno">
+            Retirar na loja
+          </button>
+          <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className="link-seta ml-3 text-petroleo/90">
+            iFood
+            <IconeSetaExterna />
           </a>
         </div>
-
-        <p
-          className="hidden md:block mt-5 text-[15px] font-medium text-creme min-h-5 entrar"
-          style={{ "--atraso": "680ms" } as React.CSSProperties}
-        >
-          {LOJA.local}
-          {status ? ` · ${status}` : ""}
+        <p className="hidden lg:block mt-5 text-[15px] font-medium min-h-5 entrar" style={{ "--atraso": "560ms" } as React.CSSProperties}>
+          {status ?? " "}
         </p>
+      </div>
+
+      {/* Celular e tablet: painel flutuante */}
+      <div
+        className="lg:hidden absolute inset-x-4 bottom-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 md:w-[440px] rounded-[22px] bg-noite/92 p-4 pt-3.5 shadow-[0_14px_40px_rgb(2_20_34/0.5)] entrar"
+        style={{ "--atraso": "520ms" } as React.CSSProperties}
+      >
+        <p className="text-center text-[14px] font-bold">Como você quer pedir?</p>
+        <div className="mt-3 grid grid-cols-2 gap-2.5">
+          <button type="button" onClick={() => pedir("entrega")} className="botao botao-amarelo px-3">
+            Entrega
+          </button>
+          <button type="button" onClick={() => pedir("retirada")} className="botao botao-contorno px-3">
+            Retirar
+          </button>
+        </div>
+        <div className="mt-1.5 flex items-center justify-between text-[13px]">
+          <span className="text-tinta-suave min-h-5">{status ?? ""}</span>
+          <a
+            href={LOJA.linkIfood}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 min-h-11 font-bold uppercase tracking-[0.06em]"
+          >
+            iFood <IconeSetaExterna />
+          </a>
+        </div>
       </div>
     </section>
   );

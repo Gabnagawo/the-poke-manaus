@@ -36,7 +36,11 @@ async def main():
         await pg.wait_for_timeout(900)
 
         # 1. abrir a montagem pelo hero
-        await pg.get_by_role("button", name="Monte o seu").click()
+        # versão Honi: o hero leva ao cardápio; a montagem abre pelo item
+        if await pg.get_by_role("button", name="Monte o seu").count():
+            await pg.get_by_role("button", name="Monte o seu").click()
+        else:
+            await pg.get_by_role("button", name="Montar Poke Médio", exact=True).last.click()
         dlg = pg.get_by_role("dialog")
         await expect(dlg).to_be_visible()
         await foto(pg, "montagem-aberta")

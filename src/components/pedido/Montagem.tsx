@@ -267,12 +267,12 @@ function CorpoMontagem({
                 onClick={() => rolarAte(e.id)}
                 className={`shrink-0 inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full text-[13px] font-medium border transition-colors ${
                   erro
-                    ? "border-erro text-erro bg-white"
+                    ? "border-erro text-erro bg-superficie"
                     : ok
-                      ? "border-petroleo bg-petroleo text-creme"
+                      ? "bg-amarelo border-amarelo text-tinta-escura"
                       : sel
-                        ? "border-petroleo text-petroleo bg-white"
-                        : "border-petroleo/20 text-petroleo/80 bg-white"
+                        ? "border-petroleo text-petroleo bg-superficie"
+                        : "border-petroleo/20 text-petroleo/80 bg-superficie"
                 }`}
               >
                 {ok && !erro && <IconeCheck className="w-3.5 h-3.5" />}
@@ -323,7 +323,7 @@ function CorpoMontagem({
                       aria-checked={sel}
                       onClick={() => trocarTamanho(t)}
                       className={`rounded-[14px] border-[1.5px] px-2 py-3 text-center transition-colors ${
-                        sel ? "border-petroleo bg-petroleo text-creme" : "border-petroleo/15 bg-white hover:border-petroleo/40"
+                        sel ? "bg-amarelo border-amarelo text-tinta-escura" : "border-petroleo/15 bg-superficie hover:border-petroleo/40"
                       }`}
                     >
                       <span className="block text-[15px] font-bold">{REGRAS_TAMANHO[t].nome.replace("Poke ", "")}</span>
@@ -360,7 +360,7 @@ function CorpoMontagem({
                   </div>
                   <span
                     className={`shrink-0 text-[13px] font-bold num ${
-                      completa ? "text-[#2f8a4c]" : e.min > 0 ? "text-petroleo" : "text-tinta-suave"
+                      completa ? "text-ok" : e.min > 0 ? "text-petroleo" : "text-tinta-suave"
                     }`}
                   >
                     {completa ? (
@@ -391,7 +391,7 @@ function CorpoMontagem({
                       return (
                         <li
                           key={o.id}
-                          className={`flex items-center gap-3 rounded-[14px] border-[1.5px] bg-white pl-3.5 pr-1.5 py-1.5 min-h-[56px] ${
+                          className={`flex items-center gap-3 rounded-[14px] border-[1.5px] bg-superficie pl-3.5 pr-1.5 py-1.5 min-h-[56px] ${
                             q > 0 ? "border-petroleo" : "border-petroleo/12"
                           }`}
                         >
@@ -439,19 +439,19 @@ function CorpoMontagem({
                           onClick={() => tocar(e, o.id)}
                           className={`relative text-left rounded-[14px] border-[1.5px] px-3.5 py-2.5 min-h-[56px] transition-[background-color,border-color,opacity] duration-150 active:scale-[0.98] ${
                             sel
-                              ? "border-petroleo bg-petroleo text-creme"
+                              ? "bg-amarelo border-amarelo text-tinta-escura"
                               : erro
-                                ? "border-erro/40 bg-white"
-                                : "border-petroleo/12 bg-white hover:border-petroleo/35"
+                                ? "border-erro/40 bg-superficie"
+                                : "border-petroleo/12 bg-superficie hover:border-petroleo/35"
                           } ${cheio ? "opacity-45" : ""}`}
                         >
                           <span className="block pr-5 text-[15px] font-medium leading-[1.2]">{o.nome}</span>
                           {(!!o.gramatura || (o.precoExtra ?? 0) > 0) && (
-                            <span className={`block text-[12.5px] mt-1 num ${sel ? "text-creme/80" : "text-tinta-suave"}`}>
+                            <span className={`block text-[12.5px] mt-1 num ${sel ? "text-tinta-escura/75" : "text-tinta-suave"}`}>
                               {[o.gramatura, o.precoExtra ? `+ ${formatarPreco(o.precoExtra)}` : null].filter(Boolean).join(" · ")}
                             </span>
                           )}
-                          {sel && <IconeCheck className="absolute right-2.5 top-2.5 w-4 h-4 text-amarelo" />}
+                          {sel && <IconeCheck className="absolute right-2.5 top-2.5 w-4 h-4 text-tinta-escura" />}
                         </button>
                       );
                     })}
@@ -504,7 +504,7 @@ function CorpoMontagem({
           <button
             type="button"
             onClick={adicionar}
-            className={`botao flex-1 h-14 min-h-14 px-4 justify-between ${pendentes.length ? "bg-petroleo/85 text-creme" : "botao-amarelo"}`}
+            className={`botao flex-1 h-14 min-h-14 px-4 justify-between ${pendentes.length ? "bg-mar text-petroleo" : "botao-amarelo"}`}
           >
             <span>{editando ? "Salvar" : "Adicionar"}</span>
             <span className="num normal-case tracking-normal text-[16px]">{formatarPreco(total)}</span>

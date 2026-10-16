@@ -101,6 +101,8 @@ interface ContextoPedido {
 
   cliente: DadosCliente;
   salvarCliente: (dados: DadosCliente) => void;
+  /** Botões "Entrega" / "Retirar" do topo (Honi Poke): já deixa o checkout marcado */
+  definirEntrega: (tipo: TipoEntrega) => void;
 }
 
 const Contexto = createContext<ContextoPedido | null>(null);
@@ -322,6 +324,14 @@ export function PedidoProvider({ children }: { children: ReactNode }) {
     gravar(CHAVE_CLIENTE, { ...dados, observacoes: "", troco: "" });
   }, []);
 
+  const definirEntrega = useCallback((tipo: TipoEntrega) => {
+    setCliente((c) => {
+      const novo = { ...c, tipoEntrega: tipo };
+      gravar(CHAVE_CLIENTE, { ...novo, observacoes: "", troco: "" });
+      return novo;
+    });
+  }, []);
+
   const quantidadeTotal = linhas.reduce((a, l) => a + l.quantidade, 0);
   const subtotal = Math.round(linhas.reduce((a, l) => a + l.precoUnitario * l.quantidade, 0) * 100) / 100;
 
@@ -350,6 +360,7 @@ export function PedidoProvider({ children }: { children: ReactNode }) {
       aviso,
       cliente,
       salvarCliente,
+      definirEntrega,
     }),
     [
       pronta,
@@ -375,6 +386,7 @@ export function PedidoProvider({ children }: { children: ReactNode }) {
       aviso,
       cliente,
       salvarCliente,
+      definirEntrega,
     ],
   );
 

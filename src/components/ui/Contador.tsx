@@ -15,7 +15,7 @@ interface ContadorProps {
 }
 
 export function Contador({ valor, onMais, onMenos, rotulo, semMais, lixeiraNoUm, claro }: ContadorProps) {
-  const cor = claro ? "bg-white" : "bg-creme-2";
+  const cor = claro ? "bg-superficie" : "bg-creme-2";
   return (
     <div className={`inline-flex items-center rounded-full ${cor} p-0.5`} role="group" aria-label={rotulo}>
       <button

@@ -12,7 +12,7 @@ REC = os.path.join(RAIZ, "public", "images", "recortes")
 OUT = os.path.join(RAIZ, "public", "images", "hero")
 os.makedirs(OUT, exist_ok=True)
 
-MESA = (36, 110, 146)      # azul da marca (#2A7CA1) um pouco mais escuro: texto creme pequeno passa de 4,5:1
+MESA = (22, 84, 122)       # versao Honi: azul-petroleo mais fundo, para o titulo coral e o texto creme
 
 
 def fundo(w, h, cor=MESA):

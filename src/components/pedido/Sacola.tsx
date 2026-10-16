@@ -272,7 +272,7 @@ export function Sacola() {
         <h2 className="flex-1 titulo text-[24px] md:text-[26px]">
           {titulo}
           {passo === "itens" && quantidadeTotal > 0 && (
-            <span className="ml-2 align-middle inline-grid place-items-center min-w-7 h-7 px-2 rounded-full bg-amarelo text-[14px] num tracking-normal">
+            <span className="ml-2 align-middle inline-grid place-items-center min-w-7 h-7 px-2 rounded-full bg-amarelo text-tinta-escura text-[14px] num tracking-normal">
               {quantidadeTotal}
             </span>
           )}
@@ -347,7 +347,7 @@ export function Sacola() {
                     onClick={() => atualizar("tipoEntrega", t)}
                     aria-pressed={dados.tipoEntrega === t}
                     className={`h-11 rounded-full text-[14px] font-bold transition-colors ${
-                      dados.tipoEntrega === t ? "bg-petroleo text-creme" : "text-petroleo"
+                      dados.tipoEntrega === t ? "bg-amarelo text-tinta-escura" : "text-petroleo"
                     }`}
                   >
                     {t === "entrega" ? "Entrega" : "Retirar na loja"}
@@ -418,7 +418,7 @@ export function Sacola() {
                     onClick={() => atualizar("pagamento", p.id)}
                     aria-pressed={dados.pagamento === p.id}
                     className={`h-12 rounded-[14px] border-[1.5px] text-[15px] font-medium transition-colors ${
-                      dados.pagamento === p.id ? "border-petroleo bg-petroleo text-creme" : "border-petroleo/15 bg-white"
+                      dados.pagamento === p.id ? "bg-amarelo border-amarelo text-tinta-escura" : "border-petroleo/15 bg-superficie"
                     }`}
                   >
                     {p.nome}
@@ -458,7 +458,7 @@ export function Sacola() {
 
         {passo === "enviado" && (
           <div className="px-6 py-12 text-center">
-            <span className="mx-auto grid place-items-center w-16 h-16 rounded-full bg-amarelo">
+            <span className="mx-auto grid place-items-center w-16 h-16 rounded-full bg-amarelo text-tinta-escura">
               <IconeCheck className="w-8 h-8" />
             </span>
             <p className="titulo text-[30px] mt-6">Quase lá</p>

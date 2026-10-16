@@ -143,7 +143,7 @@ export function Painel({ aberto, onFechar, rotulo, variante, children, className
     <div className="fixed inset-0 z-50" aria-hidden={!aberto}>
       {variante !== "menu" && (
         <div
-          className={`absolute inset-0 bg-petroleo-2/50 transition-opacity duration-300 ${visivel ? "opacity-100" : "opacity-0"}`}
+          className={`absolute inset-0 bg-[#020f1a]/65 transition-opacity duration-300 ${visivel ? "opacity-100" : "opacity-0"}`}
           onClick={() => fechar.current()}
         />
       )}

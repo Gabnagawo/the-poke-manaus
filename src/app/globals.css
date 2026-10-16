@@ -41,22 +41,30 @@
   src: url("/fonts/kaufmann/Kaufmann.woff2") format("woff2");
 }
 
+/* Versão alternativa "Honi": o azul domina. Os nomes dos tokens são os da v4, com os valores
+   trocados: "creme" virou o fundo azul-marinho, "petroleo" virou o texto creme e "amarelo"
+   virou o coral de ação da Honi Poke. Assim os mesmos componentes funcionam nas duas versões. */
 @theme {
-  --color-creme: #fcf9f0;
-  --color-creme-2: #f4eedf;
-  --color-petroleo: #0e4c74;
-  --color-petroleo-2: #0a3a59;
-  --color-azul: #2a7ca1;
-  --color-azul-claro: #d4e7f1;
-  --color-amarelo: #f7ea48;
-  --color-amarelo-2: #ecdc2c;
-  --color-salvia: #dbe2dc;
-  --color-areia: #e8d8bf;
-  --color-pessego: #e9c4ad;
-  --color-lavanda: #dccbd5;
-  --color-menta: #d3e6da;
-  --color-tinta-suave: #4d6b80;
-  --color-erro: #b3261e;
+  --color-creme: #0a3a59;
+  --color-creme-2: #0e4c74;
+  --color-petroleo: #fcf9f0;
+  --color-petroleo-2: #e9e3d3;
+  --color-azul: #8cc7e3;
+  --color-azul-claro: #123f5e;
+  --color-amarelo: #ff7a5c;
+  --color-amarelo-2: #ff6644;
+  --color-salvia: #0e4c74;
+  --color-areia: #2a7ca1;
+  --color-pessego: #2f86ad;
+  --color-lavanda: #246e92;
+  --color-menta: #1f6386;
+  --color-tinta-suave: #a9c4d6;
+  --color-erro: #ff9c8f;
+  --color-noite: #062a42;
+  --color-mar: #2a7ca1;
+  --color-superficie: #0e4c74;
+  --color-tinta-escura: #062a42;
+  --color-ok: #7fd69b;
 
   --font-sans: "Aktiv Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-script: "Kaufmann", "Brush Script MT", cursive;
@@ -110,7 +118,7 @@ body {
 
 ::selection {
   background: var(--color-amarelo);
-  color: var(--color-petroleo);
+  color: var(--color-tinta-escura);
 }
 
 :focus-visible {
@@ -171,17 +179,17 @@ body {
 }
 .botao-amarelo {
   background: var(--color-amarelo);
-  color: var(--color-petroleo);
+  color: var(--color-tinta-escura);
 }
 .botao-amarelo:hover {
   background: var(--color-amarelo-2);
 }
 .botao-petroleo {
-  background: var(--color-petroleo);
-  color: var(--color-creme);
+  background: var(--color-mar);
+  color: var(--color-petroleo);
 }
 .botao-petroleo:hover {
-  background: var(--color-petroleo-2);
+  background: #3389b0;
 }
 .botao-contorno {
   border: 1.5px solid currentColor;
@@ -218,7 +226,7 @@ body {
 /* Fotos recortadas: quadrado pastel + sombra de contato                      */
 /* -------------------------------------------------------------------------- */
 .foto-prato {
-  filter: drop-shadow(0 10px 12px rgb(14 40 60 / 0.18)) drop-shadow(0 2px 3px rgb(14 40 60 / 0.14));
+  filter: drop-shadow(0 12px 14px rgb(2 20 34 / 0.38)) drop-shadow(0 2px 3px rgb(2 20 34 / 0.3));
 }
 
 /* -------------------------------------------------------------------------- */
@@ -341,7 +349,7 @@ body {
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
-  scrollbar-color: rgb(14 76 116 / 0.28) transparent;
+  scrollbar-color: rgb(252 249 240 / 0.25) transparent;
 }
 
 input,
@@ -355,15 +363,15 @@ textarea {
   width: 100%;
   min-height: 48px;
   border-radius: 12px;
-  border: 1.5px solid rgb(14 76 116 / 0.18);
-  background: #fff;
+  border: 1.5px solid rgb(252 249 240 / 0.18);
+  background: var(--color-superficie);
   padding: 0.75rem 0.9rem;
   font-size: 16px; /* 16 px evita o zoom automático do iPhone */
   color: var(--color-petroleo);
   transition: border-color 0.2s var(--ease-suave);
 }
 .campo::placeholder {
-  color: rgb(14 76 116 / 0.45);
+  color: rgb(252 249 240 / 0.45);
 }
 .campo:focus {
   outline: none;

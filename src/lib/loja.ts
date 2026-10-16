@@ -1,0 +1,31 @@
+// Dados oficiais e constantes da loja The Poke Manaus
+// Fonte: Briefing — Site The Poke Manaus.md (iFood / Receita Federal)
+// NUNCA invente dados fora das fontes oficiais.
+
+export const LOJA = {
+  nome: "The Poke Manaus",
+  marca: "Thepoke®",
+  slogan: "Rápido, Saboroso & Nutritivo.",
+  cnpj: "68.439.848/0001-55",
+  // Endereço sem número até confirmação da divergência (2045 x 3047 Loja 63)
+  enderecoLinha: "Condomínio Park Mall Ephigênio, Av. Ephigênio Salles",
+  bairro: "Aleixo",
+  cidade: "Manaus",
+  estado: "AM",
+  cep: "69060-020",
+  horario: "Segunda a domingo, das 11h às 23h",
+  horarioAbertura: "11:00",
+  horarioFechamento: "23:00",
+  diasFuncionamento: "Todos os dias",
+  pedidoMinimoIfood: 20.0,
+  linkIfood: "https://www.ifood.com.br/delivery/manaus-am/the-poke-manaus-aleixo/dee1b578-6c35-43e2-9bb2-3f44122e401a",
+  instagram: "https://www.instagram.com/thepokemanaus/",
+  instagramHandle: "@thepokemanaus",
+  redeInstagram: "https://www.instagram.com/thepokeoficial/",
+  redeSite: "https://www.amothepoke.com.br/",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://the-poke-manaus.pages.dev",
+} as const;
+
+// Número de WhatsApp para pedidos [A CONFIRMAR com cliente]
+// Enquanto for null, a URL gerada é https://wa.me/?text=... permitindo ao cliente selecionar o contato
+export const WHATSAPP_PEDIDOS: string | null = null;

@@ -1,0 +1,28 @@
+import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/metadados";
+
+export const dynamic = "force-static";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const agora = new Date();
+  return [
+    {
+      url: `${SITE_URL}/`,
+      lastModified: agora,
+      changeFrequency: "daily",
+      priority: 1.0,
+    },
+    {
+      url: `${SITE_URL}/privacidade`,
+      lastModified: agora,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/termos`,
+      lastModified: agora,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+  ];
+}

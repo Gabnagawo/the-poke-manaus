@@ -1,0 +1,275 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------------------- */
+/* TIPOGRAFIA LOCAL DA MARCA E ESTILO EDITORIAL                               */
+/* -------------------------------------------------------------------------- */
+
+/* General Sans (Fontshare - ITF Free Font License) */
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/general-sans/GeneralSans-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/general-sans/GeneralSans-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/general-sans/GeneralSans-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/general-sans/GeneralSans-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/general-sans/GeneralSans-700.woff2') format('woff2');
+}
+
+/* Cabinet Grotesk (Fontshare) - Display editorial alinhado à estética Limón */
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/substitute/CabinetGrotesk-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/substitute/CabinetGrotesk-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/substitute/CabinetGrotesk-800.woff2') format('woff2');
+}
+
+@theme {
+  --color-creme: #FCF9F0;
+  --color-creme-escuro: #F3EEDC;
+  --color-salvia: #DBE2DC;
+  --color-salvia-claro: #EAF0EB;
+  --color-poke-dark: #0E2A38;
+  --color-poke-navy: #153A4E;
+  --color-poke-blue: #2A7CA1;
+  --color-poke-light: #E4F1F7;
+  --color-amarelo: #F7EA48;
+  --color-amarelo-hover: #E7DA35;
+  --color-texto: #1D0B0D;
+  --color-texto-muted: #59655D;
+
+  --color-pastel-areia: #E5D3BA;
+  --color-pastel-pessego: #DEB8A3;
+  --color-pastel-lavanda: #D9C3CE;
+  --color-pastel-oceano: #D6E4ED;
+
+  --font-display: 'Cabinet Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: 'General Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --header-h-desktop: 96px;
+  --header-h-mobile: 80px;
+}
+
+html {
+  background-color: #FCF9F0;
+  color: #1D0B0D;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FCF9F0;
+  color: #1D0B0D;
+  overflow-x: clip;
+}
+
+/* Offset para âncoras de rolagem */
+section[id] {
+  scroll-margin-top: calc(var(--header-h-desktop) + 16px);
+}
+
+@media (max-width: 768px) {
+  section[id] {
+    scroll-margin-top: calc(var(--header-h-mobile) + 12px);
+  }
+}
+
+/* Tipografia display no estilo da referência Limón */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+/* Entrelinha mínima de 1.0 para títulos em caixa alta com acento (regra do brief) */
+.leading-display {
+  line-height: 1.05;
+}
+
+/* Rotação lúdica / tilted badges da Limón */
+.tilt-left {
+  transform: rotate(-7deg);
+  display: inline-block;
+  transform-origin: center;
+}
+
+.tilt-right {
+  transform: rotate(7deg);
+  display: inline-block;
+  transform-origin: center;
+}
+
+/* Botão amarelo primário no estilo Limón: cantos quase retos, 44px min-target */
+.btn-limon {
+  background-color: #F7EA48;
+  color: #0E2A38;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.btn-limon:hover {
+  background-color: #E7DA35;
+  transform: translateY(-1px);
+}
+
+.btn-limon:active {
+  transform: translateY(0);
+}
+
+.btn-outline-dark {
+  border: 1.5px solid #0E2A38;
+  color: #0E2A38;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #0E2A38;
+  color: #FCF9F0;
+}
+
+/* Utilitário para ocultar scrollbar nativa mantendo swipe */
+@utility scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Rotação sutil dos títulos de cards no molde Limón (±3° a 5°) */
+.tilt-card-left {
+  transform: rotate(-4deg);
+  display: inline-block;
+  transform-origin: left center;
+}
+
+.tilt-card-right {
+  transform: rotate(4deg);
+  display: inline-block;
+  transform-origin: left center;
+}
+
+/* Letreiro gigante inclinado do hero */
+.letreiro-hero {
+  transform: rotate(-5deg);
+  display: inline-block;
+  transform-origin: center;
+}
+
+/* Animações suaves de entrada e flutuação */
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0) rotate(var(--bowl-rot, 0deg));
+  }
+  50% {
+    transform: translateY(-8px) rotate(var(--bowl-rot, 0deg));
+  }
+}
+
+.animate-float-1 {
+  --bowl-rot: -12deg;
+  animation: floatGentle 7s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  --bowl-rot: 8deg;
+  animation: floatGentle 8.5s ease-in-out infinite 1s;
+}
+
+.animate-float-3 {
+  --bowl-rot: 14deg;
+  animation: floatGentle 7.5s ease-in-out infinite 0.5s;
+}
+
+.animate-float-4 {
+  --bowl-rot: -8deg;
+  animation: floatGentle 9s ease-in-out infinite 1.5s;
+}
+
+.animate-float-5 {
+  --bowl-rot: 5deg;
+  animation: floatGentle 8s ease-in-out infinite 2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-1,
+  .animate-float-2,
+  .animate-float-3,
+  .animate-float-4,
+  .animate-float-5 {
+    animation: none !important;
+  }
+}
+

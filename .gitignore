@@ -36,3 +36,6 @@ next-env.d.ts
 
 # testes de recorte
 /test_*.png
+
+# arquivos auxiliares de mensagem dos agentes
+scripts/qa/*maestro*

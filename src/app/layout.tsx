@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { preload } from "react-dom";
 import "./globals.css";
 import { metadadosBase } from "@/lib/metadados";
 import { gerarEsquemaRestaurante } from "@/lib/esquema";
@@ -16,14 +17,15 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const esquemaJson = JSON.stringify(gerarEsquemaRestaurante());
+  // fontes do título e do letreiro do hero (o resto carrega quando aparece)
+  preload("/fonts/aktiv/AktivGrotesk-XBold.woff2", { as: "font", type: "font/woff2", crossOrigin: "" });
+  preload("/fonts/kaufmann/Kaufmann.woff2", { as: "font", type: "font/woff2", crossOrigin: "" });
 
   return (
     <html lang="pt-BR">
       <head>
         {/* liga as animações de entrada só quando há JS (sem JS, tudo aparece) */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
-        <link rel="preload" href="/fonts/aktiv/AktivGrotesk-XBold.woff2" as="font" type="font/woff2" crossOrigin="" />
-        <link rel="preload" href="/fonts/kaufmann/Kaufmann.woff2" as="font" type="font/woff2" crossOrigin="" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: esquemaJson }} />
       </head>
       <body className="min-h-screen flex flex-col">

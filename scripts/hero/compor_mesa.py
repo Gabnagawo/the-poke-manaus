@@ -92,7 +92,8 @@ if __name__ == "__main__":
     im = Image.open(os.path.join(OUT, "mesa-desktop.webp"))
     im.resize((1600, int(1600 * im.height / im.width)), Image.LANCZOS).save(os.path.join(OUT, "mesa-desktop-1600.webp"), "WEBP", quality=80, method=6)
     im = Image.open(os.path.join(OUT, "mesa-mobile.webp"))
-    im.resize((720, int(720 * im.height / im.width)), Image.LANCZOS).save(os.path.join(OUT, "mesa-mobile-720.webp"), "WEBP", quality=78, method=6)
+    for w in (720, 900):
+        im.resize((w, int(w * im.height / im.width)), Image.LANCZOS).save(os.path.join(OUT, f"mesa-mobile-{w}.webp"), "WEBP", quality=78, method=6)
     for n in os.listdir(OUT):
         if n.endswith("-preview.jpg"):
             os.remove(os.path.join(OUT, n))

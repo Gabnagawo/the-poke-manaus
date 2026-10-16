@@ -4,12 +4,31 @@
 // slogan da marca no letreiro manuscrito (Kaufmann), inclinado como o "FRESH CATCH".
 
 import { useEffect, useState } from "react";
+import { preload } from "react-dom";
 import { usePedido } from "@/lib/pedido";
 import { LOJA, statusLoja } from "@/lib/loja";
 import { aoClicarAncora } from "@/lib/rolagem";
 import { IconeSeta } from "@/components/ui/Icones";
 
+const MESA_CELULAR = "/images/hero/mesa-mobile-720.webp 720w, /images/hero/mesa-mobile-900.webp 900w, /images/hero/mesa-mobile.webp 1080w";
+const MESA_DESKTOP = "/images/hero/mesa-desktop-1600.webp 1600w, /images/hero/mesa-desktop.webp 2400w";
+
 export function Hero() {
+  // a foto do hero é o maior elemento da primeira tela: começa a baixar junto com o HTML
+  preload("/images/hero/mesa-mobile-720.webp", {
+    as: "image",
+    imageSrcSet: MESA_CELULAR,
+    imageSizes: "100vw",
+    fetchPriority: "high",
+    media: "(max-width: 1023px)",
+  });
+  preload("/images/hero/mesa-desktop-1600.webp", {
+    as: "image",
+    imageSrcSet: MESA_DESKTOP,
+    imageSizes: "100vw",
+    fetchPriority: "high",
+    media: "(min-width: 1024px)",
+  });
   const { abrirMontagem } = usePedido();
   const [status, setStatus] = useState<string | null>(null);
 
@@ -25,12 +44,12 @@ export function Hero() {
       <picture>
         <source
           media="(min-width: 1024px)"
-          srcSet="/images/hero/mesa-desktop-1600.webp 1600w, /images/hero/mesa-desktop.webp 2400w"
+          srcSet={MESA_DESKTOP}
           sizes="100vw"
         />
         <img
           src="/images/hero/mesa-mobile-720.webp"
-          srcSet="/images/hero/mesa-mobile-720.webp 720w, /images/hero/mesa-mobile.webp 1080w"
+          srcSet={MESA_CELULAR}
           sizes="100vw"
           alt="Pokes da The Poke vistos de cima, sobre uma mesa azul"
           className="mesa absolute inset-0 h-full w-full object-cover object-top md:object-center lg:object-[75%_center]"

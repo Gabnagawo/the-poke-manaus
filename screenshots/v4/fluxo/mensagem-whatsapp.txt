@@ -1,0 +1,22 @@
+*Pedido pelo site — The Poke Manaus*
+
+*Nome:* Teste
+*Entrega*
+Endereço: Rua Teste, 100
+Bairro: Aleixo
+
+*Itens*
+1x Poke Grande — R$ 124,30
+   Base: Arroz Japonês
+   Proteínas: Salmão Fresco, Atum Selado, Camarão Grelhado
+   Molhos: Molho Fit, Teriyaki
+   Acompanhamentos: Manga, Abacate, Cenoura
+   Crispys: Crispy de Couve
+   Proteína extra: Salmão Extra
+   Adicionais: 2x Cream Cheese
+   Talher: Hashi
+2x Anti-Ox — R$ 39,80
+
+*Total dos itens:* R$ 164,10
+Taxa de entrega: a combinar
+*Pagamento:* Dinheiro (troco para R$ 200,00)

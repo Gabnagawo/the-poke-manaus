@@ -6,11 +6,11 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "The Poke Manaus",
     short_name: "The Poke",
-    description: "Rápido, Saboroso & Nutritivo. Cardápio de pedidos online da The Poke Manaus.",
+    description: "Monte seu poke e peça pelo site da The Poke Manaus.",
     start_url: "/",
     display: "standalone",
     background_color: "#FCF9F0",
-    theme_color: "#103B15",
+    theme_color: "#FCF9F0",
     icons: [
       {
         src: "/icon-192.png",

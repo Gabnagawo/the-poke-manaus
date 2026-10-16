@@ -1,227 +1,184 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
+// Cabeçalho no molde da limon.no: links à esquerda, logo no centro, ação à direita.
+// Celular: menu | logo | Pedir/Sacola. O menu abre uma cortina sálvia em tela cheia.
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { LOJA } from "@/lib/loja";
-import { useCarrinho } from "@/lib/carrinho";
+import { usePedido } from "@/lib/pedido";
+import { LOJA, statusLoja } from "@/lib/loja";
+import { aoClicarAncora, irPara } from "@/lib/rolagem";
+import { Logo } from "@/components/ui/Logo";
+import { Painel } from "@/components/ui/Painel";
+import { IconeFechar, IconeInstagram, IconeMenu, IconeSacola, IconeSetaExterna } from "@/components/ui/Icones";
 
-interface HeaderProps {
-  onAbrirCarrinho: () => void;
-  onAbrirMontagem?: () => void;
-}
+const LINKS = [
+  { id: "cardapio", texto: "Cardápio" },
+  { id: "pokes-da-casa", texto: "Pokes da casa" },
+  { id: "sucos", texto: "Sucos" },
+  { id: "a-loja", texto: "A loja" },
+  { id: "horarios", texto: "Horários" },
+];
 
-export function Header({ onAbrirCarrinho, onAbrirMontagem }: HeaderProps) {
+export function Header({ inicio = true }: { inicio?: boolean }) {
+  const { quantidadeTotal, abrirSacola, abrirMontagem, pronta } = usePedido();
+  const [rolou, setRolou] = useState(false);
   const [menuAberto, setMenuAberto] = useState(false);
-  const { quantidadeTotal, total } = useCarrinho();
+  const [status, setStatus] = useState<string | null>(null);
 
-  const toggleMenu = () => setMenuAberto(!menuAberto);
-  const fecharMenu = () => setMenuAberto(false);
+  useEffect(() => {
+    const aoRolar = () => setRolou(window.scrollY > 8);
+    aoRolar();
+    window.addEventListener("scroll", aoRolar, { passive: true });
+    return () => window.removeEventListener("scroll", aoRolar);
+  }, []);
+
+  useEffect(() => {
+    if (menuAberto) setStatus(statusLoja().texto);
+  }, [menuAberto]);
+
+  const temItens = pronta && quantidadeTotal > 0;
+
+  const acaoPrincipal = () => {
+    if (temItens) abrirSacola();
+    else if (inicio) irPara("cardapio");
+    else window.location.href = "/#cardapio";
+  };
+
+  const linkSecao = (id: string, texto: string, classe: string, antes?: () => void) =>
+    inicio ? (
+      <a key={id} href={`#${id}`} onClick={(e) => aoClicarAncora(e, id, antes)} className={classe}>
+        {texto}
+      </a>
+    ) : (
+      <Link key={id} href={`/#${id}`} className={classe}>
+        {texto}
+      </Link>
+    );
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full bg-[#FCF9F0] border-b border-[#0E2A38]/10 transition-colors">
-        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 h-[80px] md:h-[96px] flex items-center justify-between">
-          
-          {/* Lado Esquerdo (Desktop: Navegação / Mobile: Hambúrguer) */}
+      <header
+        className={`sticky top-0 z-40 bg-creme transition-shadow duration-300 ${
+          rolou ? "shadow-[0_1px_0_rgb(14_76_116/0.12)]" : ""
+        }`}
+      >
+        <div className="mx-auto max-w-[1240px] h-[var(--altura-topo)] px-3 md:px-8 grid grid-cols-[1fr_auto_1fr] items-center">
+          {/* esquerda */}
           <div className="flex items-center">
-            {/* Mobile: Botão Hambúrguer (alvo de toque mínimo 44x44px) */}
             <button
               type="button"
-              onClick={toggleMenu}
-              aria-label={menuAberto ? "Fechar menu" : "Abrir menu"}
+              onClick={() => setMenuAberto(true)}
+              className="lg:hidden grid place-items-center w-11 h-11 -ml-1 rounded-full active:bg-petroleo/5"
+              aria-label="Abrir menu"
               aria-expanded={menuAberto}
-              className="md:hidden flex flex-col justify-center items-center w-11 h-11 -ml-2 text-[#0E2A38] focus:outline-none"
             >
-              <span className="w-6 h-0.5 bg-[#0E2A38] block mb-1.5 transition-transform duration-200" />
-              <span className="w-6 h-0.5 bg-[#0E2A38] block mb-1.5 transition-opacity duration-200" />
-              <span className="w-6 h-0.5 bg-[#0E2A38] block transition-transform duration-200" />
+              <IconeMenu />
             </button>
-
-            {/* Desktop: Links de Navegação */}
-            <nav className="hidden md:flex items-center space-x-6 text-[13px] font-bold tracking-wider uppercase font-display text-[#0E2A38]">
-              <button
-                type="button"
-                onClick={onAbrirMontagem}
-                className="hover:text-[#2A7CA1] transition-colors py-2 cursor-pointer"
-              >
-                Monte seu Poke
-              </button>
-              <a
-                href="#cardapio"
-                className="hover:text-[#2A7CA1] transition-colors py-2"
-              >
-                Cardápio
-              </a>
-              <a
-                href="#sobre"
-                className="hover:text-[#2A7CA1] transition-colors py-2"
-              >
-                Sobre
-              </a>
-              <a
-                href="#horarios"
-                className="hover:text-[#2A7CA1] transition-colors py-2"
-              >
-                Horários
-              </a>
+            <nav className="hidden lg:flex items-center gap-6 xl:gap-7 text-[13px] whitespace-nowrap font-bold uppercase tracking-[0.08em]" aria-label="Seções">
+              {LINKS.filter((l) => ["cardapio", "a-loja", "horarios"].includes(l.id)).map((l) =>
+                linkSecao(l.id, l.texto, "py-3 hover:text-azul transition-colors"),
+              )}
+              {inicio && (
+                <button type="button" onClick={() => abrirMontagem("M")} className="hidden xl:inline py-3 uppercase hover:text-azul transition-colors">
+                  Monte seu poke
+                </button>
+              )}
             </nav>
           </div>
 
-          {/* Centro: Logo The Poke */}
-          <div className="flex-1 flex justify-center md:flex-initial">
-            <Link
-              href="/"
-              className="flex items-center space-x-2.5 py-1 focus:outline-none"
-              aria-label="The Poke Manaus - Início"
-            >
-              <div className="relative w-11 h-11 md:w-12 md:h-12 flex-shrink-0">
-                <Image
-                  src="/images/logo/logo.webp"
-                  alt="The Poke"
-                  fill
-                  sizes="(max-width: 768px) 44px, 48px"
-                  className="object-contain"
-                  priority
-                />
-              </div>
-              <div className="flex flex-col text-left">
-                <span className="font-display font-extrabold text-[17px] md:text-[19px] leading-tight tracking-tight text-[#0E2A38]">
-                  THE POKE
-                </span>
-                <span className="text-[10px] md:text-[11px] font-bold uppercase tracking-wider text-[#2A7CA1]">
-                  Manaus · Park Mall
-                </span>
-              </div>
-            </Link>
-          </div>
+          {/* centro */}
+          <Link href="/" className="block py-2" aria-label="The Poke Manaus, início">
+            <Logo className="h-[26px] md:h-[34px] w-auto" />
+          </Link>
 
-          {/* Lado Direito: Ações (Instagram + Carrinho) */}
-          <div className="flex items-center space-x-3">
+          {/* direita */}
+          <div className="flex items-center justify-end gap-5">
             <a
               href={LOJA.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram @thepokemanaus"
-              className="hidden lg:inline-flex text-[12px] font-bold uppercase tracking-wider text-[#0E2A38] hover:text-[#2A7CA1] transition-colors pr-2"
+              className="hidden lg:inline-flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.08em] hover:text-azul transition-colors"
             >
+              <IconeInstagram className="w-[18px] h-[18px]" />
               Instagram
             </a>
-
-            {/* Botão de Carrinho no estilo Limón */}
             <button
               type="button"
-              onClick={onAbrirCarrinho}
-              aria-label={`Abrir carrinho com ${quantidadeTotal} itens`}
-              className="btn-limon px-3 sm:px-5 py-2 text-[13px] md:text-[14px] shadow-sm flex items-center space-x-2"
+              onClick={acaoPrincipal}
+              className="botao botao-amarelo min-h-11 h-11 px-4 md:px-5 text-[13px] gap-2"
+              aria-label={temItens ? `Abrir sacola com ${quantidadeTotal} ${quantidadeTotal === 1 ? "item" : "itens"}` : "Pedir: ver o cardápio"}
             >
-              <span className="font-display font-bold">
-                {quantidadeTotal > 0 ? "PEDIDO" : "CARRINHO"}
-              </span>
-              {quantidadeTotal > 0 && (
-                <span className="inline-flex items-center justify-center bg-[#0E2A38] text-[#FCF9F0] text-[11px] font-black w-5 h-5 rounded-full ml-1">
-                  {quantidadeTotal}
-                </span>
+              {temItens ? (
+                <>
+                  <IconeSacola className="w-[18px] h-[18px]" />
+                  <span className="hidden sm:inline">Sacola</span>
+                  <span className="num grid place-items-center min-w-6 h-6 px-1.5 rounded-full bg-petroleo text-creme text-[12px]">
+                    {quantidadeTotal}
+                  </span>
+                </>
+              ) : (
+                "Pedir"
               )}
             </button>
           </div>
         </div>
       </header>
 
-      {/* Menu Gaveta Mobile em Tela Cheia (Estilo Limón: fundo verde-sálvia #DBE2DC) */}
-      {menuAberto && (
-        <div
-          className="fixed inset-0 z-50 bg-[#DBE2DC] flex flex-col justify-between p-6 md:hidden animate-in fade-in duration-200"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Menu de navegação"
-        >
-          {/* Topo da Gaveta com Botão Fechar */}
-          <div className="flex items-center justify-between border-b border-[#0E2A38]/15 pb-4">
-            <div className="flex items-center space-x-2">
-              <div className="relative w-9 h-9">
-                <Image
-                  src="/images/logo/logo.webp"
-                  alt="The Poke"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <span className="font-display font-bold text-[#0E2A38] text-base">
-                THE POKE MANAUS
-              </span>
-            </div>
-            <button
-              type="button"
-              onClick={fecharMenu}
-              aria-label="Fechar menu"
-              className="w-11 h-11 flex items-center justify-center text-[#0E2A38] text-2xl font-bold rounded"
-            >
-              ✕
-            </button>
-          </div>
-
-          {/* Links Principais Mobile (alvo >= 44px) */}
-          <nav className="flex flex-col space-y-4 my-auto py-6">
-            <button
-              type="button"
-              onClick={() => {
-                fecharMenu();
-                onAbrirMontagem?.();
-              }}
-              className="text-left font-display font-extrabold text-3xl text-[#0E2A38] hover:text-[#2A7CA1] transition-colors py-2 border-b border-[#0E2A38]/10 cursor-pointer"
-            >
-              Monte seu Poke
-            </button>
-            <a
-              href="#cardapio"
-              onClick={fecharMenu}
-              className="font-display font-extrabold text-3xl text-[#0E2A38] hover:text-[#2A7CA1] transition-colors py-2 border-b border-[#0E2A38]/10"
-            >
-              Cardápio Completo
-            </a>
-            <a
-              href="#sobre"
-              onClick={fecharMenu}
-              className="font-display font-extrabold text-3xl text-[#0E2A38] hover:text-[#2A7CA1] transition-colors py-2 border-b border-[#0E2A38]/10"
-            >
-              Sobre a The Poke
-            </a>
-            <a
-              href="#horarios"
-              onClick={fecharMenu}
-              className="font-display font-extrabold text-3xl text-[#0E2A38] hover:text-[#2A7CA1] transition-colors py-2 border-b border-[#0E2A38]/10"
-            >
-              Horários & Local
-            </a>
-            <a
-              href={LOJA.linkIfood}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={fecharMenu}
-              className="font-display font-bold text-xl text-[#2A7CA1] hover:underline pt-2"
-            >
-              Pedir no iFood ↗
-            </a>
-          </nav>
-
-          {/* Rodapé da Gaveta Mobile */}
-          <div className="pt-4 border-t border-[#0E2A38]/15 text-sm text-[#0E2A38]/80 space-y-2">
-            <p className="font-semibold">{LOJA.enderecoLinha}</p>
-            <p>{LOJA.horario}</p>
-            <div className="pt-2">
-              <a
-                href={LOJA.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-display font-bold text-xs uppercase tracking-wider text-[#0E2A38] inline-block py-1"
-              >
-                Instagram {LOJA.instagramHandle} ↗
+      {/* Menu do celular: cortina sálvia (limon.no) */}
+      <Painel aberto={menuAberto} onFechar={() => setMenuAberto(false)} rotulo="Menu" variante="menu" className="!bg-salvia">
+        <div className="h-[var(--altura-topo)] px-3 grid grid-cols-[1fr_auto_1fr] items-center shrink-0">
+          <span />
+          <Logo className="h-[26px] w-auto" />
+          <button
+            type="button"
+            onClick={() => setMenuAberto(false)}
+            className="justify-self-end grid place-items-center w-11 h-11 rounded-full active:bg-petroleo/10"
+            aria-label="Fechar menu"
+          >
+            <IconeFechar className="w-6 h-6" />
+          </button>
+        </div>
+        <nav className="flex-1 overflow-y-auto px-5 pt-4" aria-label="Seções">
+          <ul className="border-t border-petroleo/20">
+            {LINKS.map((l) => (
+              <li key={l.id} className="border-b border-petroleo/20">
+                {linkSecao(l.id, l.texto, "flex items-center min-h-16 text-[26px] titulo", () => setMenuAberto(false))}
+              </li>
+            ))}
+            {inicio && (
+              <li className="border-b border-petroleo/20">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMenuAberto(false);
+                    setTimeout(() => abrirMontagem("M"), 320);
+                  }}
+                  className="flex items-center w-full min-h-16 text-[26px] titulo text-left"
+                >
+                  Monte seu poke
+                </button>
+              </li>
+            )}
+          </ul>
+          <div className="mt-8 space-y-3 pb-[max(24px,env(safe-area-inset-bottom))]">
+            {status && <p className="text-[15px] font-medium">{status}</p>}
+            <p className="text-[15px] text-petroleo/80">
+              {LOJA.local} · {LOJA.bairro}, {LOJA.cidade}
+            </p>
+            <div className="flex flex-wrap gap-3 pt-3">
+              <a href={LOJA.instagram} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
+                <IconeInstagram className="w-[18px] h-[18px]" />
+                Instagram
+              </a>
+              <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
+                iFood
+                <IconeSetaExterna />
               </a>
             </div>
           </div>
-        </div>
-      )}
+        </nav>
+      </Painel>
     </>
   );
 }

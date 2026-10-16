@@ -1,151 +1,97 @@
+// Rodapé: dados da loja em colunas e o logo gigante de ponta a ponta (Poke House).
+
 import Link from "next/link";
-import Image from "next/image";
 import { LOJA } from "@/lib/loja";
+import { Logo } from "@/components/ui/Logo";
+import { IconeSetaExterna } from "@/components/ui/Icones";
 
 export function Footer() {
-  const anoAtual = new Date().getFullYear();
-
+  const ano = 2026;
   return (
-    <footer className="w-full bg-[#0E2A38] text-[#FCF9F0] border-t-2 border-[#103B15]/20 pt-16 pb-12">
-      <div className="max-w-[1140px] mx-auto px-4 sm:px-6">
-        
-        {/* Bloco Superior do Rodapé */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-[#FCF9F0]/15">
-          
-          {/* Coluna Marca e Slogan Real */}
-          <div className="md:col-span-5 flex flex-col space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="relative w-12 h-12 flex-shrink-0">
-                <Image
-                  src="/images/logo/logo.webp"
-                  alt="The Poke"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-display font-extrabold text-2xl tracking-tight text-[#FCF9F0]">
-                  THE POKE
-                </span>
-                <span className="text-xs uppercase font-bold tracking-widest text-[#F7EA48]">
-                  Manaus · Park Mall Ephigênio
-                </span>
-              </div>
-            </div>
-
-            <p className="font-display font-normal text-lg text-[#F7EA48] tracking-wide pt-1">
-              RÁPIDO, SABOROSO &amp; NUTRITIVO.
-            </p>
-
-            <p className="text-sm text-[#FCF9F0]/80 leading-relaxed max-w-sm">
-              Poke montado na hora com receitas da casa e sucos naturais.
-            </p>
-
-            <div className="pt-2 text-xs text-[#FCF9F0]/60 space-y-1">
-              <p>CNPJ: {LOJA.cnpj}</p>
-              <p>Rede fundada em 2019. Loja de Manaus inaugurada em 26/09/2026.</p>
-            </div>
-          </div>
-
-          {/* Coluna Localização e Atendimento */}
-          <div className="md:col-span-4 flex flex-col space-y-3">
-            <h3 className="font-display font-bold text-base tracking-wider text-[#F7EA48] uppercase">
-              Onde Estamos
-            </h3>
-            <p className="text-sm text-[#FCF9F0]/90 leading-relaxed">
-              {LOJA.enderecoLinha}
-              <br />
-              Bairro {LOJA.bairro} — {LOJA.cidade}/{LOJA.estado}
-              <br />
-              CEP {LOJA.cep}
-            </p>
-
-            <div className="pt-2">
-              <h4 className="font-display font-semibold text-xs tracking-wider text-[#FCF9F0]/70 uppercase">
-                Horário de Atendimento
-              </h4>
-              <p className="text-sm text-[#FCF9F0]/90 font-medium pt-0.5">
-                {LOJA.horario}
-              </p>
-            </div>
-
-            <div className="pt-2">
+    <footer className="bg-petroleo text-creme overflow-hidden">
+      <div className="mx-auto max-w-[1240px] px-5 md:px-8 pt-16 md:pt-24 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 text-[15px] leading-[1.6]">
+        <div className="col-span-2 md:col-span-1">
+          <h2 className="rotulo text-amarelo">A loja</h2>
+          <p className="mt-3">
+            {LOJA.enderecoLinha}
+            <br />
+            {LOJA.bairro}, {LOJA.cidade}/{LOJA.estado}
+            <br />
+            CEP {LOJA.cep}
+          </p>
+          <p className="mt-3 text-creme/70 text-[13px]">CNPJ {LOJA.cnpj}</p>
+        </div>
+        <div>
+          <h2 className="rotulo text-amarelo">Horário</h2>
+          <p className="mt-3">
+            Todos os dias
+            <br />
+            11h às 23h
+          </p>
+        </div>
+        <div>
+          <h2 className="rotulo text-amarelo">Pedidos</h2>
+          <ul className="mt-2">
+            <li>
+              <Link href="/#cardapio" className="inline-flex min-h-11 items-center hover:text-amarelo transition-colors">
+                Cardápio
+              </Link>
+            </li>
+            <li>
               <a
                 href={LOJA.linkIfood}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-xs font-bold uppercase tracking-wider text-[#F7EA48] hover:underline"
+                className="inline-flex min-h-11 items-center gap-1.5 hover:text-amarelo transition-colors"
               >
-                Pedir no iFood Manaus ↗
+                iFood <IconeSetaExterna />
               </a>
-            </div>
-          </div>
-
-          {/* Coluna Navegação & Redes */}
-          <div className="md:col-span-3 flex flex-col space-y-3">
-            <h3 className="font-display font-bold text-base tracking-wider text-[#F7EA48] uppercase">
-              Navegação
-            </h3>
-            <ul className="space-y-2 text-sm text-[#FCF9F0]/80">
-              <li>
-                <a href="#cardapio" className="hover:text-[#F7EA48] transition-colors">
-                  Monte seu Poke
-                </a>
-              </li>
-              <li>
-                <a href="#cardapio" className="hover:text-[#F7EA48] transition-colors">
-                  Cardápio
-                </a>
-              </li>
-              <li>
-                <a href="#sobre" className="hover:text-[#F7EA48] transition-colors">
-                  Sobre a Franquia
-                </a>
-              </li>
-              <li>
-                <a href="#horarios" className="hover:text-[#F7EA48] transition-colors">
-                  Horários
-                </a>
-              </li>
-              <li>
-                <a
-                  href={LOJA.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#F7EA48] transition-colors flex items-center space-x-1"
-                >
-                  <span>Instagram {LOJA.instagramHandle}</span>
-                  <span className="text-xs">↗</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
-
-        {/* Faixa Inferior de Direitos e Links Legais */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#FCF9F0]/60 space-y-4 sm:space-y-0">
-          <p>© {anoAtual} The Poke Manaus. Todos os direitos reservados.</p>
-          <div className="flex items-center space-x-6">
-            <Link
-              href="/privacidade"
-              className="hover:text-[#FCF9F0] transition-colors underline-offset-4 hover:underline py-1"
-            >
-              Política de Privacidade
-            </Link>
-            <Link
-              href="/termos"
-              className="hover:text-[#FCF9F0] transition-colors underline-offset-4 hover:underline py-1"
-            >
-              Termos de Uso
-            </Link>
-            <a
-              href="/llms.txt"
-              className="hover:text-[#FCF9F0] transition-colors underline-offset-4 hover:underline py-1"
-            >
-              llms.txt
-            </a>
-          </div>
+        <div>
+          <h2 className="rotulo text-amarelo">Redes</h2>
+          <ul className="mt-2">
+            <li>
+              <a
+                href={LOJA.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center gap-1.5 hover:text-amarelo transition-colors"
+              >
+                {LOJA.instagramHandle} <IconeSetaExterna />
+              </a>
+            </li>
+            <li>
+              <a
+                href={LOJA.redeInstagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center gap-1.5 hover:text-amarelo transition-colors"
+              >
+                @thepokeoficial <IconeSetaExterna />
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-[1240px] px-5 md:px-8 mt-14 md:mt-20">
+        <Logo className="w-full h-auto text-azul" titulo="thepoke" />
+      </div>
+
+      <div className="mx-auto max-w-[1240px] px-5 md:px-8 py-6 mt-6 border-t border-creme/15 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between text-[13px] text-creme/70 pb-[max(24px,env(safe-area-inset-bottom))]">
+        <p>
+          © {ano} {LOJA.nome}.
+        </p>
+        <nav className="flex gap-5" aria-label="Páginas legais">
+          <Link href="/privacidade" className="inline-flex min-h-11 items-center hover:text-creme transition-colors">
+            Privacidade
+          </Link>
+          <Link href="/termos" className="inline-flex min-h-11 items-center hover:text-creme transition-colors">
+            Termos
+          </Link>
+        </nav>
       </div>
     </footer>
   );

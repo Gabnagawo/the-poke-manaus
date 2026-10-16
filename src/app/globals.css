@@ -1,109 +1,92 @@
 @import "tailwindcss";
 
 /* -------------------------------------------------------------------------- */
-/* TIPOGRAFIA LOCAL DA MARCA E ESTILO EDITORIAL                               */
+/* Fontes da marca (pasta brand/ enviada pelo cliente)                         */
+/* Aktiv Grotesk para tudo; Kaufmann só no letreiro manuscrito.               */
 /* -------------------------------------------------------------------------- */
-
-/* General Sans (Fontshare - ITF Free Font License) */
 @font-face {
-  font-family: 'General Sans';
-  font-style: normal;
+  font-family: "Aktiv Grotesk";
   font-weight: 300;
   font-display: swap;
-  src: url('/fonts/general-sans/GeneralSans-300.woff2') format('woff2');
+  src: url("/fonts/aktiv/AktivGrotesk-Light.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: 'General Sans';
-  font-style: normal;
+  font-family: "Aktiv Grotesk";
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/general-sans/GeneralSans-400.woff2') format('woff2');
+  src: url("/fonts/aktiv/AktivGrotesk-Regular.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: 'General Sans';
-  font-style: normal;
+  font-family: "Aktiv Grotesk";
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/general-sans/GeneralSans-500.woff2') format('woff2');
+  src: url("/fonts/aktiv/AktivGrotesk-Medium.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: 'General Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/fonts/general-sans/GeneralSans-600.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'General Sans';
-  font-style: normal;
+  font-family: "Aktiv Grotesk";
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/general-sans/GeneralSans-700.woff2') format('woff2');
+  src: url("/fonts/aktiv/AktivGrotesk-Bold.woff2") format("woff2");
 }
-
-/* Cabinet Grotesk (Fontshare) - Display editorial alinhado à estética Limón */
 @font-face {
-  font-family: 'Cabinet Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/substitute/CabinetGrotesk-400.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Cabinet Grotesk';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/fonts/substitute/CabinetGrotesk-700.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Cabinet Grotesk';
-  font-style: normal;
+  font-family: "Aktiv Grotesk";
   font-weight: 800;
   font-display: swap;
-  src: url('/fonts/substitute/CabinetGrotesk-800.woff2') format('woff2');
+  src: url("/fonts/aktiv/AktivGrotesk-XBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kaufmann";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/kaufmann/Kaufmann.woff2") format("woff2");
 }
 
 @theme {
-  --color-creme: #FCF9F0;
-  --color-creme-escuro: #F3EEDC;
-  --color-salvia: #DBE2DC;
-  --color-salvia-claro: #EAF0EB;
-  --color-poke-dark: #0E2A38;
-  --color-poke-navy: #153A4E;
-  --color-poke-blue: #2A7CA1;
-  --color-poke-light: #E4F1F7;
-  --color-amarelo: #F7EA48;
-  --color-amarelo-hover: #E7DA35;
-  --color-texto: #1D0B0D;
-  --color-texto-muted: #59655D;
+  --color-creme: #fcf9f0;
+  --color-creme-2: #f4eedf;
+  --color-petroleo: #0e4c74;
+  --color-petroleo-2: #0a3a59;
+  --color-azul: #2a7ca1;
+  --color-azul-claro: #d4e7f1;
+  --color-amarelo: #f7ea48;
+  --color-amarelo-2: #ecdc2c;
+  --color-salvia: #dbe2dc;
+  --color-areia: #e8d8bf;
+  --color-pessego: #e9c4ad;
+  --color-lavanda: #dccbd5;
+  --color-menta: #d3e6da;
+  --color-tinta-suave: #4d6b80;
+  --color-erro: #b3261e;
 
-  --color-pastel-areia: #E5D3BA;
-  --color-pastel-pessego: #DEB8A3;
-  --color-pastel-lavanda: #D9C3CE;
-  --color-pastel-oceano: #D6E4ED;
+  --font-sans: "Aktiv Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-script: "Kaufmann", "Brush Script MT", cursive;
 
-  --font-display: 'Cabinet Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-sans: 'General Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --ease-suave: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-saida: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 :root {
-  --header-h-desktop: 96px;
-  --header-h-mobile: 80px;
+  --altura-topo: 64px;
+  --altura-abas: 52px;
+}
+@media (min-width: 768px) {
+  :root {
+    --altura-topo: 80px;
+  }
 }
 
 html {
-  background-color: #FCF9F0;
-  color: #1D0B0D;
+  background: var(--color-creme);
+  color: var(--color-petroleo);
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--altura-topo) + var(--altura-abas));
+  scrollbar-gutter: stable;
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: 100%;
 }
-
+html.travado {
+  overflow: hidden;
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -112,164 +95,287 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: #FCF9F0;
-  color: #1D0B0D;
+  background: var(--color-creme);
+  color: var(--color-petroleo);
   overflow-x: clip;
+  font-feature-settings: "kern", "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Offset para âncoras de rolagem */
-section[id] {
-  scroll-margin-top: calc(var(--header-h-desktop) + 16px);
+/* Preços sempre com algarismos alinhados */
+.num {
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
-@media (max-width: 768px) {
-  section[id] {
-    scroll-margin-top: calc(var(--header-h-mobile) + 12px);
-  }
+::selection {
+  background: var(--color-amarelo);
+  color: var(--color-petroleo);
 }
 
-/* Tipografia display no estilo da referência Limón */
-.font-display {
-  font-family: var(--font-display);
-  letter-spacing: -0.01em;
+:focus-visible {
+  outline: 2px solid var(--color-azul);
+  outline-offset: 2px;
+}
+
+@layer components {
+/* -------------------------------------------------------------------------- */
+/* Títulos                                                                    */
+/* -------------------------------------------------------------------------- */
+.titulo {
+  font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: -0.015em;
+  line-height: 0.95;
 }
-
-/* Entrelinha mínima de 1.0 para títulos em caixa alta com acento (regra do brief) */
-.leading-display {
-  line-height: 1.05;
-}
-
-/* Rotação lúdica / tilted badges da Limón */
-.tilt-left {
-  transform: rotate(-7deg);
-  display: inline-block;
-  transform-origin: center;
-}
-
-.tilt-right {
-  transform: rotate(7deg);
-  display: inline-block;
-  transform-origin: center;
-}
-
-/* Botão amarelo primário no estilo Limón: cantos quase retos, 44px min-target */
-.btn-limon {
-  background-color: #F7EA48;
-  color: #0E2A38;
-  font-family: var(--font-display);
+.rotulo {
   font-weight: 700;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
-  border-radius: 2px;
-  min-height: 44px;
-  min-width: 44px;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.letreiro {
+  font-family: var(--font-script);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Botões (pílula, como Poke House e Honi Poke)                               */
+/* -------------------------------------------------------------------------- */
+.botao {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
-}
-
-.btn-limon:hover {
-  background-color: #E7DA35;
-  transform: translateY(-1px);
-}
-
-.btn-limon:active {
-  transform: translateY(0);
-}
-
-.btn-outline-dark {
-  border: 1.5px solid #0E2A38;
-  color: #0E2A38;
-  font-family: var(--font-display);
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0 1.5rem;
+  border-radius: 999px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 14px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  border-radius: 2px;
-  min-height: 44px;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s var(--ease-suave),
+    color 0.2s var(--ease-suave),
+    border-color 0.2s var(--ease-suave),
+    transform 0.15s var(--ease-suave);
+  user-select: none;
+}
+.botao:active {
+  transform: scale(0.97);
+}
+.botao-amarelo {
+  background: var(--color-amarelo);
+  color: var(--color-petroleo);
+}
+.botao-amarelo:hover {
+  background: var(--color-amarelo-2);
+}
+.botao-petroleo {
+  background: var(--color-petroleo);
+  color: var(--color-creme);
+}
+.botao-petroleo:hover {
+  background: var(--color-petroleo-2);
+}
+.botao-contorno {
+  border: 1.5px solid currentColor;
+  background: transparent;
+}
+.botao-contorno:hover {
+  background: color-mix(in srgb, currentColor 10%, transparent);
+}
+.botao[disabled] {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.link-seta {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
+  gap: 0.4rem;
+  min-height: 44px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.link-seta svg {
+  transition: transform 0.2s var(--ease-suave);
+}
+.link-seta:hover svg {
+  transform: translateX(3px);
 }
 
-.btn-outline-dark:hover {
-  background-color: #0E2A38;
-  color: #FCF9F0;
 }
 
-/* Utilitário para ocultar scrollbar nativa mantendo swipe */
-@utility scrollbar-hide {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  &::-webkit-scrollbar {
-    display: none;
+/* -------------------------------------------------------------------------- */
+/* Fotos recortadas: quadrado pastel + sombra de contato                      */
+/* -------------------------------------------------------------------------- */
+.foto-prato {
+  filter: drop-shadow(0 10px 12px rgb(14 40 60 / 0.18)) drop-shadow(0 2px 3px rgb(14 40 60 / 0.14));
+}
+
+/* -------------------------------------------------------------------------- */
+/* Animações de entrada (limon.no: fade + 24px, 0,9 s, sem mola)              */
+/* Só escondem quando o JS está ativo (classe .js no <html>).                 */
+/* -------------------------------------------------------------------------- */
+.js .revelar {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition:
+    opacity 0.9s var(--ease-suave),
+    transform 0.9s var(--ease-suave);
+  transition-delay: var(--atraso, 0ms);
+}
+.js .revelar.visivel {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes entrar-baixo {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
-
-/* Rotação sutil dos títulos de cards no molde Limón (±3° a 5°) */
-.tilt-card-left {
-  transform: rotate(-4deg);
-  display: inline-block;
-  transform-origin: left center;
-}
-
-.tilt-card-right {
-  transform: rotate(4deg);
-  display: inline-block;
-  transform-origin: left center;
-}
-
-/* Letreiro gigante inclinado do hero */
-.letreiro-hero {
-  transform: rotate(-5deg);
-  display: inline-block;
-  transform-origin: center;
-}
-
-/* Animações suaves de entrada e flutuação */
-@keyframes floatGentle {
-  0%, 100% {
-    transform: translateY(0) rotate(var(--bowl-rot, 0deg));
+@keyframes entrar-letreiro {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0) rotate(-12deg) scale(0.92);
   }
-  50% {
-    transform: translateY(-8px) rotate(var(--bowl-rot, 0deg));
+  to {
+    opacity: 1;
+    transform: rotate(-7deg);
   }
 }
-
-.animate-float-1 {
-  --bowl-rot: -12deg;
-  animation: floatGentle 7s ease-in-out infinite;
+@keyframes mesa-zoom {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.entrar {
+  animation: entrar-baixo 0.9s var(--ease-saida) both;
+  animation-delay: var(--atraso, 0ms);
+}
+.entrar-letreiro {
+  animation: entrar-letreiro 1s var(--ease-saida) both;
+  animation-delay: var(--atraso, 0ms);
+}
+.mesa {
+  animation: mesa-zoom 1.6s var(--ease-saida) both;
 }
 
-.animate-float-2 {
-  --bowl-rot: 8deg;
-  animation: floatGentle 8.5s ease-in-out infinite 1s;
+/* Faixa com o slogan correndo (Poke House) */
+@keyframes faixa {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.faixa-trilho {
+  animation: faixa 38s linear infinite;
 }
 
-.animate-float-3 {
-  --bowl-rot: 14deg;
-  animation: floatGentle 7.5s ease-in-out infinite 0.5s;
+/* Ajuda visual quando um passo obrigatório falta */
+@keyframes tremer {
+  0%,
+  100% {
+    transform: none;
+  }
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+.tremer {
+  animation: tremer 0.4s var(--ease-suave);
 }
 
-.animate-float-4 {
-  --bowl-rot: -8deg;
-  animation: floatGentle 9s ease-in-out infinite 1.5s;
+@keyframes pulo {
+  0%,
+  100% {
+    transform: none;
+  }
+  40% {
+    transform: scale(1.18);
+  }
 }
-
-.animate-float-5 {
-  --bowl-rot: 5deg;
-  animation: floatGentle 8s ease-in-out infinite 2s;
+.pulo {
+  animation: pulo 0.35s var(--ease-saida);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-float-1,
-  .animate-float-2,
-  .animate-float-3,
-  .animate-float-4,
-  .animate-float-5 {
-    animation: none !important;
+  .js .revelar {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .entrar,
+  .mesa,
+  .tremer,
+  .pulo {
+    animation: none;
+  }
+  .entrar-letreiro {
+    animation: none;
+    transform: rotate(-7deg);
+  }
+  .faixa-trilho {
+    animation: none;
   }
 }
 
+/* Rolagem lateral sem barra (abas, carrosséis) */
+.sem-barra {
+  scrollbar-width: none;
+}
+.sem-barra::-webkit-scrollbar {
+  display: none;
+}
+
+/* Painéis (montagem e sacola) */
+.painel-rolagem {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+@layer components {
+/* Campos de formulário */
+.campo {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1.5px solid rgb(14 76 116 / 0.18);
+  background: #fff;
+  padding: 0.75rem 0.9rem;
+  font-size: 16px; /* 16 px evita o zoom automático do iPhone */
+  color: var(--color-petroleo);
+  transition: border-color 0.2s var(--ease-suave);
+}
+.campo::placeholder {
+  color: rgb(14 76 116 / 0.45);
+}
+.campo:focus {
+  outline: none;
+  border-color: var(--color-azul);
+}
+.campo[aria-invalid="true"] {
+  border-color: var(--color-erro);
+}
+}

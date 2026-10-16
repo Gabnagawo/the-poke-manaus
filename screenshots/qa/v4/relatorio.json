@@ -1,0 +1,3760 @@
+{
+  "url": "http://localhost:3005/",
+  "rotulo": "v4",
+  "timestamp": "2026-10-16 02:21:19",
+  "viewports": {
+    "360": {
+      "width": 360,
+      "height": 740,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 28,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2472,
+          "right": 2305,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 1069,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 179,
+          "right": 371,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 432,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 423,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 650,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 712,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 703,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 1008,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1069,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1060,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 2305,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 297,
+          "right": 1366,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1428,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1419,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 179,
+          "right": 1606,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1668,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1659,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 1886,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1947,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1939,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 2244,
+          "docWidth": 360
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2305,
+          "docWidth": 360
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2296,
+          "docWidth": 360
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(3)",
+          "classes": "relative shrink-0 px-3 md:px-4 text-[13px] md:text-[14px] font-bold uppercase tr",
+          "width": 74,
+          "right": 383,
+          "docWidth": 360
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "classes": "relative shrink-0 px-3 md:px-4 text-[13px] md:text-[14px] font-bold uppercase tr",
+          "width": 86,
+          "right": 473,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4) > span.absolute.left-3",
+          "classes": "absolute left-3 right-3 md:left-4 md:right-4 bottom-0 h-[3px] rounded-full bg-pe",
+          "width": 0,
+          "right": 399,
+          "docWidth": 360
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "classes": "foto-prato pointer-events-none absolute -bottom-6 right-[-4%] w-[150px] md:w-aut",
+          "width": 192,
+          "right": 418,
+          "docWidth": 360
+        }
+      ],
+      "small_touch_targets_count": 2,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "a",
+          "text": "The Poke Manaus, início",
+          "selector": "body.min-h-screen.flex > header.sticky.top-0 > div.mx-auto.px-3 > a.block.py-2",
+          "width": 113.7,
+          "height": 42,
+          "classes": "block py-2"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 324,
+          "displayedWidth": 250,
+          "ratio": "1.30"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 162,
+          "displayedWidth": 119,
+          "ratio": "1.37"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 162,
+          "displayedWidth": 90,
+          "ratio": "1.81"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 715,
+          "displayedWidth": 198,
+          "ratio": "3.60"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 458,
+          "displayedWidth": 137,
+          "ratio": "3.35"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 192,
+          "ratio": "2.38"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 1534.8,
+        "img_kb": 559.2,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.7,
+        "other_kb": 302.7
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 70.6,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "guaraflow-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "size_kb": 53.7,
+          "type": "img"
+        },
+        {
+          "url": "16g12xd8-7k5l.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/16g12xd8-7k5l.js",
+          "size_kb": 49.3,
+          "type": "script"
+        },
+        {
+          "url": "3sftxh19l8vy5.css",
+          "full_url": "http://localhost:3005/_next/static/chunks/3sftxh19l8vy5.css",
+          "size_kb": 48.7,
+          "type": "css"
+        }
+      ],
+      "lcp_ms": 300,
+      "cls": 0,
+      "long_tasks_count": 1,
+      "long_tasks": [
+        {
+          "duration": 54,
+          "startTime": 168,
+          "name": "self"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 26,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2472,
+          "right": 2303,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 1067,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 430,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 421,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 648,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 710,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 701,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 1006,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1067,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1058,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 2303,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 297,
+          "right": 1364,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1425,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1417,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 179,
+          "right": 1604,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1666,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1657,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 1884,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1945,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1937,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 2242,
+          "docWidth": 390
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2303,
+          "docWidth": 390
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2294,
+          "docWidth": 390
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "classes": "relative shrink-0 px-3 md:px-4 text-[13px] md:text-[14px] font-bold uppercase tr",
+          "width": 86,
+          "right": 473,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4) > span.absolute.left-3",
+          "classes": "absolute left-3 right-3 md:left-4 md:right-4 bottom-0 h-[3px] rounded-full bg-pe",
+          "width": 0,
+          "right": 399,
+          "docWidth": 390
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "classes": "foto-prato pointer-events-none absolute -bottom-6 right-[-4%] w-[150px] md:w-aut",
+          "width": 192,
+          "right": 449,
+          "docWidth": 390
+        }
+      ],
+      "small_touch_targets_count": 2,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "a",
+          "text": "The Poke Manaus, início",
+          "selector": "body.min-h-screen.flex > header.sticky.top-0 > div.mx-auto.px-3 > a.block.py-2",
+          "width": 113.7,
+          "height": 42,
+          "classes": "block py-2"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 351,
+          "displayedWidth": 273,
+          "ratio": "1.29"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 175,
+          "displayedWidth": 130,
+          "ratio": "1.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 175,
+          "displayedWidth": 98,
+          "ratio": "1.78"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 715,
+          "displayedWidth": 217,
+          "ratio": "3.29"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 458,
+          "displayedWidth": 150,
+          "ratio": "3.06"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 192,
+          "ratio": "2.38"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 1534.8,
+        "img_kb": 559.2,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.7,
+        "other_kb": 302.7
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 70.6,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "guaraflow-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "size_kb": 53.7,
+          "type": "img"
+        },
+        {
+          "url": "16g12xd8-7k5l.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/16g12xd8-7k5l.js",
+          "size_kb": 49.3,
+          "type": "script"
+        },
+        {
+          "url": "3sftxh19l8vy5.css",
+          "full_url": "http://localhost:3005/_next/static/chunks/3sftxh19l8vy5.css",
+          "size_kb": 48.7,
+          "type": "css"
+        }
+      ],
+      "lcp_ms": 260,
+      "cls": 0,
+      "long_tasks_count": 1,
+      "long_tasks": [
+        {
+          "duration": 52,
+          "startTime": 206,
+          "name": "self"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "430": {
+      "width": 430,
+      "height": 932,
+      "is_mobile": true,
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)",
+        "Failed to load resource: the server responded with a status of 404 (File not found)",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "page_errors": [],
+      "overflow_count": 23,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2472,
+          "right": 2300,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 1065,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 646,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 707,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 699,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 1003,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1065,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1056,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1236,
+          "right": 2300,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 297,
+          "right": 1362,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1423,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1415,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 179,
+          "right": 1602,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1663,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1655,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 219,
+          "right": 1882,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1943,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 1935,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 296,
+          "right": 2239,
+          "docWidth": 430
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2300,
+          "docWidth": 430
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 61,
+          "right": 2292,
+          "docWidth": 430
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "selector": "#cardapio > div.sticky.z-20:nth-of-type(2) > div.sem-barra.mx-auto > button.relative.shrink-0:nth-of-type(4)",
+          "classes": "relative shrink-0 px-3 md:px-4 text-[13px] md:text-[14px] font-bold uppercase tr",
+          "width": 86,
+          "right": 473,
+          "docWidth": 430
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "classes": "foto-prato pointer-events-none absolute -bottom-6 right-[-4%] w-[150px] md:w-aut",
+          "width": 192,
+          "right": 491,
+          "docWidth": 430
+        }
+      ],
+      "small_touch_targets_count": 2,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "a",
+          "text": "The Poke Manaus, início",
+          "selector": "body.min-h-screen.flex > header.sticky.top-0 > div.mx-auto.px-3 > a.block.py-2",
+          "width": 113.7,
+          "height": 42,
+          "classes": "block py-2"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 387,
+          "displayedWidth": 304,
+          "ratio": "1.27"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 193,
+          "displayedWidth": 146,
+          "ratio": "1.32"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 193,
+          "displayedWidth": 110,
+          "ratio": "1.75"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-200.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 0,
+          "displayedWidth": 83,
+          "ratio": "0.00"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 0,
+          "displayedWidth": 83,
+          "ratio": "0.00"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-200.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 83,
+          "ratio": "1.16"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-200.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 96,
+          "ratio": "1.00"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 62,
+          "ratio": "1.55"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-200.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 96,
+          "displayedWidth": 58,
+          "ratio": "1.66"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 715,
+          "displayedWidth": 242,
+          "ratio": "2.96"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 458,
+          "displayedWidth": 167,
+          "ratio": "2.75"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 192,
+          "ratio": "2.38"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 1491.5,
+        "img_kb": 538.0,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.7,
+        "other_kb": 280.6
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "mesa-mobile-720.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-mobile-720.webp",
+          "size_kb": 70.6,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "guaraflow-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "size_kb": 53.7,
+          "type": "img"
+        },
+        {
+          "url": "16g12xd8-7k5l.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/16g12xd8-7k5l.js",
+          "size_kb": 49.3,
+          "type": "script"
+        },
+        {
+          "url": "3sftxh19l8vy5.css",
+          "full_url": "http://localhost:3005/_next/static/chunks/3sftxh19l8vy5.css",
+          "size_kb": 48.7,
+          "type": "css"
+        }
+      ],
+      "lcp_ms": 252,
+      "cls": 0,
+      "long_tasks_count": 1,
+      "long_tasks": [
+        {
+          "duration": 71,
+          "startTime": 184,
+          "name": "self"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 22,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2916,
+          "right": 2722,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 1264,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 261,
+          "right": 774,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 844,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 834,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 350,
+          "right": 1194,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1264,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1255,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 2722,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 352,
+          "right": 1616,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1686,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1676,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 215,
+          "right": 1901,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1971,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1961,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 261,
+          "right": 2232,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2302,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2292,
+          "docWidth": 768
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 350,
+          "right": 2652,
+          "docWidth": 768
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2722,
+          "docWidth": 768
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2713,
+          "docWidth": 768
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "classes": "foto-prato pointer-events-none absolute -bottom-6 right-[-4%] w-[150px] md:w-aut",
+          "width": 474,
+          "right": 786,
+          "docWidth": 768
+        }
+      ],
+      "small_touch_targets_count": 2,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "button",
+          "text": "VER SACOLA",
+          "selector": "body.min-h-screen.flex > div.hidden.fixed:nth-of-type(3) > button.botao.botao-amarelo",
+          "width": 114.7,
+          "height": 40,
+          "classes": "botao botao-amarelo min-h-10 h-10 px-4 text-[12px]"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 162,
+          "ratio": "1.42"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 162,
+          "ratio": "1.42"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 230,
+          "displayedWidth": 123,
+          "ratio": "1.87"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 171,
+          "ratio": "1.76"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 181,
+          "displayedWidth": 171,
+          "ratio": "1.06"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 214,
+          "ratio": "1.40"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 138,
+          "ratio": "2.17"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 129,
+          "ratio": "2.33"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 715,
+          "displayedWidth": 189,
+          "ratio": "3.79"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 458,
+          "displayedWidth": 130,
+          "ratio": "3.52"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 474,
+          "ratio": "0.97"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 2053.8,
+        "img_kb": 1078.1,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.8,
+        "other_kb": 302.7
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "mesa-mobile.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-mobile.webp",
+          "size_kb": 146.1,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 320,
+      "cls": 0,
+      "long_tasks_count": 1,
+      "long_tasks": [
+        {
+          "duration": 55,
+          "startTime": 243,
+          "name": "self"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1024": {
+      "width": 1024,
+      "height": 768,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 18,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2916,
+          "right": 2733,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 1275,
+          "docWidth": 1024
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 350,
+          "right": 1205,
+          "docWidth": 1024
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1275,
+          "docWidth": 1024
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0 > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1266,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 2733,
+          "docWidth": 1024
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 352,
+          "right": 1627,
+          "docWidth": 1024
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1697,
+          "docWidth": 1024
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1687,
+          "docWidth": 1024
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 215,
+          "right": 1912,
+          "docWidth": 1024
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1982,
+          "docWidth": 1024
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1972,
+          "docWidth": 1024
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 261,
+          "right": 2243,
+          "docWidth": 1024
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2313,
+          "docWidth": 1024
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2303,
+          "docWidth": 1024
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 350,
+          "right": 2663,
+          "docWidth": 1024
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2733,
+          "docWidth": 1024
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2723,
+          "docWidth": 1024
+        }
+      ],
+      "small_touch_targets_count": 3,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "a",
+          "text": "INSTAGRAM",
+          "selector": "header.sticky.top-0 > div.mx-auto.px-3 > div.flex.items-center:nth-of-type(2) > a.hidden.items-center",
+          "width": 112.3,
+          "height": 19.5,
+          "classes": "hidden lg:inline-flex items-center gap-2 text-[13px] font-bo"
+        },
+        {
+          "tag": "button",
+          "text": "VER SACOLA",
+          "selector": "body.min-h-screen.flex > div.hidden.fixed:nth-of-type(3) > button.botao.botao-amarelo",
+          "width": 114.7,
+          "height": 40,
+          "classes": "botao botao-amarelo min-h-10 h-10 px-4 text-[12px]"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 229,
+          "ratio": "1.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 229,
+          "ratio": "1.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 307,
+          "displayedWidth": 173,
+          "ratio": "1.78"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 235,
+          "ratio": "1.28"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 181,
+          "displayedWidth": 235,
+          "ratio": "0.77"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 212,
+          "ratio": "1.41"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.35"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 137,
+          "ratio": "2.19"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 128,
+          "ratio": "2.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 715,
+          "displayedWidth": 268,
+          "ratio": "2.67"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 185,
+          "ratio": "2.48"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 423,
+          "ratio": "1.08"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 2006.1,
+        "img_kb": 1030.3,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.8,
+        "other_kb": 302.7
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 98.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-400.webp",
+          "size_kb": 55.5,
+          "type": "img"
+        },
+        {
+          "url": "move-on-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "size_kb": 55.0,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 300,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 15,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "body.min-h-screen.flex > main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex",
+          "classes": "faixa-trilho flex w-max text-[13px] md:text-[15px] font-bold uppercase tracking-",
+          "width": 2916,
+          "right": 2724,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 1266,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "selector": "main.flex-1 > div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2)",
+          "classes": "flex shrink-0 items-center",
+          "width": 1458,
+          "right": 2724,
+          "docWidth": 1440
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 352,
+          "right": 1618,
+          "docWidth": 1440
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1688,
+          "docWidth": 1440
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1678,
+          "docWidth": 1440
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(2)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 215,
+          "right": 1903,
+          "docWidth": 1440
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1973,
+          "docWidth": 1440
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(2) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 1963,
+          "docWidth": 1440
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(3)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 261,
+          "right": 2234,
+          "docWidth": 1440
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2304,
+          "docWidth": 1440
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(3) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2294,
+          "docWidth": 1440
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > span.px-6.whitespace-nowrap:nth-of-type(4)",
+          "classes": "px-6 md:px-8 whitespace-nowrap",
+          "width": 350,
+          "right": 2654,
+          "docWidth": 1440
+        },
+        {
+          "tag": "svg",
+          "id": null,
+          "selector": "div.relative.overflow-hidden > div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4)",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2724,
+          "docWidth": 1440
+        },
+        {
+          "tag": "use",
+          "id": null,
+          "selector": "div.faixa-trilho.flex > div.flex.shrink-0:nth-of-type(2) > svg:nth-of-type(4) > use",
+          "classes": "[object SVGAnimatedString]",
+          "width": 70,
+          "right": 2714,
+          "docWidth": 1440
+        }
+      ],
+      "small_touch_targets_count": 3,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Pular para o cardápio",
+          "selector": "body.min-h-screen.flex > a.sr-only",
+          "width": 1,
+          "height": 1,
+          "classes": "sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top"
+        },
+        {
+          "tag": "a",
+          "text": "INSTAGRAM",
+          "selector": "header.sticky.top-0 > div.mx-auto.px-3 > div.flex.items-center:nth-of-type(2) > a.hidden.items-center",
+          "width": 112.3,
+          "height": 19.5,
+          "classes": "hidden lg:inline-flex items-center gap-2 text-[13px] font-bo"
+        },
+        {
+          "tag": "button",
+          "text": "VER SACOLA",
+          "selector": "body.min-h-screen.flex > div.hidden.fixed:nth-of-type(3) > button.botao.botao-amarelo",
+          "width": 114.7,
+          "height": 40,
+          "classes": "botao botao-amarelo min-h-10 h-10 px-4 text-[12px]"
+        }
+      ],
+      "image_issues_count": 25,
+      "image_issues": [
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 432,
+          "displayedWidth": 289,
+          "ratio": "1.49"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 386,
+          "displayedWidth": 289,
+          "ratio": "1.34"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-800.webp",
+          "selector": "div.grid.grid-cols-2:nth-of-type(2) > a.group.revelar:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 247,
+          "displayedWidth": 218,
+          "ratio": "1.13"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-400.webp",
+          "selector": "li.group.flex > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-pequeno-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(2) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(3) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-grande-frango-grelhado-400.webp",
+          "selector": "li.group.flex:nth-of-type(4) > button.contents > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 297,
+          "ratio": "1.01"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-medio-frango-teriyaki-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 181,
+          "displayedWidth": 297,
+          "ratio": "0.61"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "selector": "ul > li.group.flex > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/ensolarado-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(2) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(3) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/laranja-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(4) > div.relative.overflow-hidden > img.absolute.inset-0",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 270,
+          "ratio": "1.11"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/move-on-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(5) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(6) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/reset-green-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(7) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/tropicalize-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(8) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/mente-fresh-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(9) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 174,
+          "ratio": "1.72"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/sussa-vibe-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(10) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/imune-se-400.webp",
+          "selector": "ul > li.group.flex:nth-of-type(11) > div.relative.overflow-hidden > img.foto-prato.absolute",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 300,
+          "displayedWidth": 163,
+          "ratio": "1.84"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute",
+          "alt": "Poke Makaha",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 715,
+          "displayedWidth": 340,
+          "ratio": "2.10"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/guaraflow-800.webp",
+          "selector": "#a-loja > div.mx-auto.px-5 > div.revelar.relative:nth-of-type(2) > img.foto-prato.absolute:nth-of-type(2)",
+          "alt": "Suco Guaraflow",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 234,
+          "ratio": "1.95"
+        },
+        {
+          "src": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "selector": "#horarios > div.relative.mx-auto > img.foto-prato.pointer-events-none",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 458,
+          "displayedWidth": 388,
+          "ratio": "1.18"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 2169.0,
+        "img_kb": 1193.3,
+        "font_kb": 95.5,
+        "script_kb": 528.7,
+        "css_kb": 48.8,
+        "other_kb": 302.7
+      },
+      "top_10_files": [
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "10g5ub5068kzx.js",
+          "full_url": "http://localhost:3005/_next/static/chunks/10g5ub5068kzx.js",
+          "size_kb": 164.7,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3005/",
+          "full_url": "http://localhost:3005/",
+          "size_kb": 122.3,
+          "type": "other"
+        },
+        {
+          "url": "poke-grande-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-grande-800.webp",
+          "size_kb": 99.4,
+          "type": "img"
+        },
+        {
+          "url": "mesa-desktop-1600.webp",
+          "full_url": "http://localhost:3005/images/hero/mesa-desktop-1600.webp",
+          "size_kb": 98.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/poke-makaha-800.webp",
+          "size_kb": 76.0,
+          "type": "img"
+        },
+        {
+          "url": "move-on-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/move-on-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "power-red-800.webp",
+          "full_url": "http://localhost:3005/images/cardapio/power-red-800.webp",
+          "size_kb": 63.5,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox-400.webp",
+          "full_url": "http://localhost:3005/images/cardapio/anti-ox-400.webp",
+          "size_kb": 56.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 280,
+      "cls": 0,
+      "long_tasks_count": 1,
+      "long_tasks": [
+        {
+          "duration": 60,
+          "startTime": 210,
+          "name": "self"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Aktiv Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        },
+        {
+          "family": "Kaufmann",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        }
+      ]
+    }
+  }
+}

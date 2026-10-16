@@ -5,7 +5,7 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || LOJA.siteUrl;
 export const SITE_NAME = "The Poke Manaus";
 export const SITE_TITLE = "The Poke Manaus | Pedidos Online";
 export const SITE_DESCRIPTION =
-  "Poke fresco montado do seu jeito no Park Mall Ephigênio em Manaus. Ingredientes selecionados, sucos especiais e entrega rápida. Peça já!";
+  "Monte seu poke ou peça uma receita da casa. The Poke Manaus, no Park Mall Ephigênio, todos os dias das 11h às 23h. Peça pelo site e envie pelo WhatsApp.";
 
 export const metadadosBase: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -56,7 +56,7 @@ export const metadadosBase: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "The Poke Manaus — Rápido, Saboroso & Nutritivo.",
+        alt: "The Poke Manaus: monte seu poke",
         type: "image/jpeg",
       },
     ],

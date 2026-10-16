@@ -42,8 +42,8 @@ export function gerarEsquemaRestaurante() {
           "Saturday",
           "Sunday",
         ],
-        opens: LOJA.horarioAbertura,
-        closes: LOJA.horarioFechamento,
+        opens: "11:00",
+        closes: "23:00",
       },
     ],
     hasMenu: {
@@ -118,7 +118,7 @@ export function textoLlms(): string {
 > ${LOJA.slogan}
 
 ## Visão Geral
-Restaurante de poke havaiano e alimentação saudável localizado em Manaus/AM, no Condomínio Park Mall Ephigênio (bairro Aleixo). Primeira unidade da rede Thepoke® na Região Norte, oferecendo pokes personalizáveis (Monte seu Poke), receitas exclusivas da casa e uma linha de sucos especiais funcionais.
+Restaurante de poke em Manaus/AM, no Condomínio Park Mall Ephigênio (bairro Aleixo). Primeira unidade da rede Thepoke® na Região Norte, com pokes montados por etapas (Monte seu Poke), receitas da casa e sucos especiais.
 
 ## Localização e Horário
 - Endereço: ${LOJA.enderecoLinha} — ${LOJA.bairro}, ${LOJA.cidade}/${LOJA.estado}, CEP ${LOJA.cep}

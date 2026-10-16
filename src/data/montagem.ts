@@ -198,16 +198,131 @@ export const TALHERES_MONTAGEM: OpcaoMontagem[] = [
   { id: "sem-talher", nome: "Não é necessário", descricao: "Não enviaremos talheres", precoExtra: 0 },
 ];
 
-export interface DetalhesMontagemPoke {
-  tamanho: "P" | "M" | "G";
-  bases: string[];
-  proteinas: string[];
-  molhos: string[];
-  acompanhamentos: string[];
-  crispys: string[];
-  proteinasExtras: string[];
-  adicionais: string[];
-  talher: string;
-  observacao?: string;
-  precoExtras: number;
+// -----------------------------------------------------------------------------
+// Configuração da montagem por etapas (usada pela janela "Monte seu poke")
+// -----------------------------------------------------------------------------
+
+export type Tamanho = "P" | "M" | "G";
+export type TipoEtapa = "unica" | "multipla" | "quantidade";
+
+export interface EtapaMontagem {
+  id: "base" | "proteinas" | "molhos" | "acompanhamentos" | "crispys" | "extras" | "adicionais" | "talher";
+  titulo: string;
+  opcoes: OpcaoMontagem[];
+  min: number;
+  max: number;
+  /** unica = escolhe 1; multipla = marca várias; quantidade = contador por opção (extras pagos) */
+  tipo: TipoEtapa;
+}
+
+export interface ConfigMontagem {
+  /** P, M, G ou o id da receita da casa */
+  chave: string;
+  itemId: string;
+  nome: string;
+  precoBase: number;
+  /** Proteína já definida nas receitas da casa (ex.: "80 g de pasta de salmão") */
+  fixo?: string;
+  etapas: EtapaMontagem[];
+}
+
+/** Seleção: etapa → opção → quantidade (1 nas etapas de marcar) */
+export type SelecaoMontagem = Partial<Record<EtapaMontagem["id"], Record<string, number>>>;
+
+const ID_ITEM_TAMANHO: Record<Tamanho, string> = { P: "poke-pequeno", M: "poke-medio", G: "poke-grande" };
+
+export function configTamanho(t: Tamanho): ConfigMontagem {
+  const r = REGRAS_TAMANHO[t];
+  return {
+    chave: t,
+    itemId: ID_ITEM_TAMANHO[t],
+    nome: r.nome,
+    precoBase: r.precoBase,
+    etapas: [
+      { id: "base", titulo: "Base", opcoes: BASES_MONTAGEM, min: 1, max: 1, tipo: "unica" },
+      { id: "proteinas", titulo: "Proteínas", opcoes: PROTEINAS_MONTAGEM, min: r.proteinasMin, max: r.proteinasMax, tipo: "multipla" },
+      { id: "molhos", titulo: "Molhos", opcoes: MOLHOS_MONTAGEM, min: 0, max: r.molhosMax, tipo: "multipla" },
+      { id: "acompanhamentos", titulo: "Acompanhamentos", opcoes: ACOMPANHAMENTOS_MONTAGEM, min: r.acompanhamentosMin, max: r.acompanhamentosMax, tipo: "multipla" },
+      { id: "crispys", titulo: "Crispys", opcoes: CRISPYS_MONTAGEM, min: 0, max: r.crispysMax, tipo: "multipla" },
+      { id: "extras", titulo: "Proteína extra", opcoes: PROTEINAS_EXTRAS_MONTAGEM, min: 0, max: r.proteinasExtrasMax, tipo: "quantidade" },
+      { id: "adicionais", titulo: "Adicionais", opcoes: ADICIONAIS_MONTAGEM, min: 0, max: r.adicionaisMax, tipo: "quantidade" },
+      { id: "talher", titulo: "Talher", opcoes: TALHERES_MONTAGEM, min: 1, max: 1, tipo: "unica" },
+    ],
+  };
+}
+
+/**
+ * Receitas da casa que pedem escolhas (a descrição do iFood diz "+ 1 base + N acompanhamentos +
+ * 2 molhos + N crispys"). A proteína vem pronta; as listas de opções são as mesmas do Monte seu Poke.
+ * [A CONFIRMAR com o cliente: se as opções das receitas são as mesmas da montagem.]
+ */
+const RECEITAS: Record<string, { fixo: string; acomp: number; crispys: number }> = {
+  "poke-makaha": { fixo: "80 g de pasta de salmão", acomp: 4, crispys: 1 },
+  "poke-pequeno-frango-grelhado": { fixo: "80 g de frango grelhado", acomp: 4, crispys: 1 },
+  "poke-medio-frango-grelhado": { fixo: "160 g de frango grelhado", acomp: 5, crispys: 2 },
+  "poke-grande-frango-grelhado": { fixo: "240 g de frango grelhado", acomp: 6, crispys: 2 },
+};
+
+export function configReceita(itemId: string, nome: string, preco: number): ConfigMontagem | null {
+  const r = RECEITAS[itemId];
+  if (!r) return null;
+  return {
+    chave: itemId,
+    itemId,
+    nome,
+    precoBase: preco,
+    fixo: r.fixo,
+    etapas: [
+      { id: "base", titulo: "Base", opcoes: BASES_MONTAGEM, min: 1, max: 1, tipo: "unica" },
+      { id: "molhos", titulo: "Molhos", opcoes: MOLHOS_MONTAGEM, min: 0, max: 2, tipo: "multipla" },
+      { id: "acompanhamentos", titulo: "Acompanhamentos", opcoes: ACOMPANHAMENTOS_MONTAGEM, min: 1, max: r.acomp, tipo: "multipla" },
+      { id: "crispys", titulo: "Crispys", opcoes: CRISPYS_MONTAGEM, min: 0, max: r.crispys, tipo: "multipla" },
+      { id: "talher", titulo: "Talher", opcoes: TALHERES_MONTAGEM, min: 1, max: 1, tipo: "unica" },
+    ],
+  };
+}
+
+export function temReceita(itemId: string) {
+  return itemId in RECEITAS;
+}
+
+export function totalEtapa(selecao: SelecaoMontagem, etapa: EtapaMontagem) {
+  return Object.values(selecao[etapa.id] ?? {}).reduce((a, b) => a + b, 0);
+}
+
+export function precoExtras(config: ConfigMontagem, selecao: SelecaoMontagem) {
+  let total = 0;
+  for (const etapa of config.etapas) {
+    for (const [id, qtd] of Object.entries(selecao[etapa.id] ?? {})) {
+      const op = etapa.opcoes.find((o) => o.id === id);
+      if (op?.precoExtra) total += op.precoExtra * qtd;
+    }
+  }
+  return Math.round(total * 100) / 100;
+}
+
+/** Etapas obrigatórias que ainda faltam, na ordem da janela. */
+export function etapasPendentes(config: ConfigMontagem, selecao: SelecaoMontagem) {
+  return config.etapas.filter((e) => totalEtapa(selecao, e) < e.min);
+}
+
+/** Resumo legível, usado na sacola e na mensagem do WhatsApp. */
+export function resumoMontagem(config: ConfigMontagem, selecao: SelecaoMontagem) {
+  const linhas: { titulo: string; itens: string[] }[] = [];
+  if (config.fixo) linhas.push({ titulo: "Proteína", itens: [config.fixo] });
+  for (const etapa of config.etapas) {
+    const itens = Object.entries(selecao[etapa.id] ?? {})
+      .filter(([, q]) => q > 0)
+      .map(([id, q]) => {
+        const nome = etapa.opcoes.find((o) => o.id === id)?.nome ?? id;
+        return q > 1 ? `${q}x ${nome}` : nome;
+      });
+    if (itens.length) linhas.push({ titulo: etapa.titulo, itens });
+  }
+  return linhas;
+}
+
+export function configPorChave(chave: string, nome: string, preco: number): ConfigMontagem | null {
+  if (chave === "P" || chave === "M" || chave === "G") return configTamanho(chave);
+  return configReceita(chave, nome, preco);
 }

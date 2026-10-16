@@ -4,7 +4,8 @@ export interface ItemCardapio {
   categoria: "monte-seu-poke" | "promocoes" | "sucos" | "bebidas";
   preco: number;
   descricao: string;
-  imagem?: string;
+  /** slug da foto em public/images/cardapio/ */
+  foto?: string;
   destaque?: boolean;
   tamanho?: "P" | "M" | "G";
   regrasMontagem?: {
@@ -32,7 +33,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     preco: 59.9,
     tamanho: "P",
     descricao: "1 base + 1 porção de proteína + 2 molhos + 4 acompanhamentos + 1 crispy",
-    imagem: "/images/pratos/poke-pequeno.webp",
+    foto: "poke-pequeno",
     regrasMontagem: {
       basesMax: 1,
       proteinasMax: 1,
@@ -48,7 +49,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     preco: 74.9,
     tamanho: "M",
     descricao: "1 base + 2 porções de proteína + 2 molhos + 5 acompanhamentos + 2 crispys",
-    imagem: "/images/pratos/poke-medio.webp",
+    foto: "poke-medio",
     destaque: true,
     regrasMontagem: {
       basesMax: 1,
@@ -65,7 +66,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     preco: 89.9,
     tamanho: "G",
     descricao: "1 base + 3 porções de proteína + 2 molhos + 6 acompanhamentos + 3 crispys",
-    imagem: "/images/pratos/poke-grande.webp",
+    foto: "poke-grande",
     regrasMontagem: {
       basesMax: 1,
       proteinasMax: 3,
@@ -82,7 +83,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "promocoes",
     preco: 59.9,
     descricao: "80 g de pasta de salmão + 1 base + 4 acompanhamentos + 2 molhos + 1 crispy",
-    imagem: "/images/pratos/poke-makaha.webp",
+    foto: "poke-makaha",
   },
   {
     id: "poke-pequeno-frango-grelhado",
@@ -90,7 +91,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "promocoes",
     preco: 44.9,
     descricao: "80 g de frango grelhado + 1 base + 4 acompanhamentos + 2 molhos + 1 crispy",
-    imagem: "/images/pratos/poke-pequeno-frango-grelhado.webp",
+    foto: "poke-pequeno-frango-grelhado",
   },
   {
     id: "poke-medio-frango-grelhado",
@@ -98,7 +99,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "promocoes",
     preco: 58.9,
     descricao: "160 g de frango grelhado + 1 base + 5 acompanhamentos + 2 molhos + 2 crispys",
-    imagem: "/images/pratos/poke-medio-frango-grelhado.webp",
+    foto: "poke-medio-frango-grelhado",
   },
   {
     id: "poke-grande-frango-grelhado",
@@ -106,7 +107,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "promocoes",
     preco: 73.9,
     descricao: "240 g de frango grelhado + 1 base + 6 acompanhamentos + 2 molhos + 2 crispys",
-    imagem: "/images/pratos/poke-grande-frango-grelhado.webp",
+    foto: "poke-grande-frango-grelhado",
   },
   {
     id: "poke-medio-frango-teriyaki",
@@ -114,7 +115,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "promocoes",
     preco: 59.9,
     descricao: "160 g de frango em cubos, empanado e frito, caramelizado no molho teriyaki com gengibre",
-    imagem: "/images/pratos/poke-medio-frango-teriyaki.webp",
+    foto: "poke-medio-frango-teriyaki",
   },
 
   // --- SUCOS ESPECIAIS ---
@@ -124,7 +125,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Morango + uva (açúcar ou adoçante, a pedido)",
-    imagem: "/images/pratos/anti-ox.webp",
+    foto: "anti-ox",
   },
   {
     id: "suco-ensolarado",
@@ -132,7 +133,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Morango + tangerina",
-    imagem: "/images/pratos/ensolarado.webp",
+    foto: "ensolarado",
   },
   {
     id: "suco-guaraflow",
@@ -140,7 +141,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Pó de guaraná + xarope de guaraná + gelo + limão",
-    imagem: "/images/pratos/guaraflow.webp",
+    foto: "guaraflow",
     destaque: true,
   },
   {
@@ -149,7 +150,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Suco natural da fruta",
-    imagem: "/images/pratos/laranja.webp",
+    foto: "laranja",
   },
   {
     id: "suco-move-on",
@@ -157,7 +158,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 28.9,
     descricao: "Açaí + morango",
-    imagem: "/images/pratos/move-on.webp",
+    foto: "move-on",
   },
   {
     id: "suco-power-red",
@@ -165,7 +166,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Frutas vermelhas",
-    imagem: "/images/pratos/power-red.webp",
+    foto: "power-red",
   },
   {
     id: "suco-reset-green",
@@ -173,7 +174,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Suco verde: abacaxi, hortelã, couve-folha, brócolis, espinafre",
-    imagem: "/images/pratos/reset-green.webp",
+    foto: "reset-green",
   },
   {
     id: "suco-tropicalize",
@@ -181,7 +182,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Abacaxi + frutas vermelhas",
-    imagem: "/images/pratos/tropicalize.webp",
+    foto: "tropicalize",
   },
   {
     id: "suco-mente-fresh",
@@ -189,7 +190,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Abacaxi + hortelã",
-    imagem: "/images/pratos/mente-fresh.webp",
+    foto: "mente-fresh",
   },
   {
     id: "suco-sussa-vibe",
@@ -197,7 +198,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Maracujá + morango",
-    imagem: "/images/pratos/sussa-vibe.webp",
+    foto: "sussa-vibe",
   },
   {
     id: "suco-imune-se",
@@ -205,7 +206,7 @@ export const ITENS_CARDAPIO: ItemCardapio[] = [
     categoria: "sucos",
     preco: 19.9,
     descricao: "Acerola + tangerina",
-    imagem: "/images/pratos/imune-se.webp",
+    foto: "imune-se",
   },
   {
     id: "suco-limao",
@@ -306,25 +307,25 @@ export const CATEGORIAS_CARDAPIO: CategoriaCardapio[] = [
   {
     id: "monte-seu-poke",
     titulo: "Monte seu Poke",
-    subtitulo: "Escolha o tamanho e monte com ingredientes frescos na tigela",
+    subtitulo: "Escolha o tamanho e monte etapa por etapa.",
     itens: ITENS_CARDAPIO.filter((i) => i.categoria === "monte-seu-poke"),
   },
   {
     id: "promocoes",
     titulo: "Pokes da Casa",
-    subtitulo: "Receitas prontas da casa",
+    subtitulo: "Receitas da casa, com a proteína já definida.",
     itens: ITENS_CARDAPIO.filter((i) => i.categoria === "promocoes"),
   },
   {
     id: "sucos",
     titulo: "Sucos Especiais",
-    subtitulo: "Combinações funcionais e nutritivas preparadas na hora",
+    subtitulo: "As combinações da casa.",
     itens: ITENS_CARDAPIO.filter((i) => i.categoria === "sucos"),
   },
   {
     id: "bebidas",
     titulo: "Bebidas",
-    subtitulo: "Águas, refrigerantes e cervejas",
+    subtitulo: "Águas, refrigerantes e cervejas.",
     itens: ITENS_CARDAPIO.filter((i) => i.categoria === "bebidas"),
   },
 ];

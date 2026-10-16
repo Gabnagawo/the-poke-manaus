@@ -1,122 +1,68 @@
-import { DadosPedido, ItemCarrinho, calcularTotal } from "./carrinho";
+import type { DadosCliente, LinhaSacola } from "./pedido";
 import { LOJA, WHATSAPP_PEDIDOS } from "./loja";
 
 export function formatarPreco(valor: number): string {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function formatarMensagemWhatsApp(
-  pedido: DadosPedido,
-  itens: ItemCarrinho[]
-): string {
-  const total = calcularTotal(itens);
-  const linhas: string[] = [];
+const NOMES_PAGAMENTO: Record<DadosCliente["pagamento"], string> = {
+  pix: "Pix",
+  credito: "Cartão de crédito",
+  debito: "Cartão de débito",
+  dinheiro: "Dinheiro",
+};
 
-  linhas.push(`*NOVO PEDIDO — ${LOJA.nome.toUpperCase()}*`);
-  linhas.push("----------------------------------------");
-  linhas.push(`*Cliente:* ${pedido.nomeCliente.trim()}`);
-  linhas.push(
-    `*Tipo de entrega:* ${pedido.tipoEntrega === "entrega" ? "Entrega no endereço" : "Retirada no balcão (Park Mall Ephigênio)"}`
-  );
-
-  if (pedido.tipoEntrega === "entrega") {
-    linhas.push(`*Endereço:* ${pedido.enderecoEntrega || "A combinar"}`);
-    if (pedido.bairro) {
-      linhas.push(`*Bairro:* ${pedido.bairro}`);
-    }
-    if (pedido.complemento) {
-      linhas.push(`*Complemento:* ${pedido.complemento}`);
-    }
-    if (pedido.pontoReferencia) {
-      linhas.push(`*Ponto de referência:* ${pedido.pontoReferencia}`);
-    }
+export function nomePagamento(c: DadosCliente) {
+  if (c.pagamento === "dinheiro") {
+    return c.troco.trim() ? `Dinheiro (troco para ${c.troco.trim()})` : "Dinheiro (sem troco)";
   }
-
-  linhas.push("");
-  linhas.push("*ITENS DO PEDIDO:*");
-
-  itens.forEach((item) => {
-    const subtotal = item.precoUnitario * item.quantidade;
-    const nomeComTamanho = item.tamanho ? `${item.nome} (${item.tamanho})` : item.nome;
-    linhas.push(`• *${item.quantidade}x ${nomeComTamanho}* — ${formatarPreco(subtotal)}`);
-
-    if (item.montagem) {
-      const m = item.montagem;
-      if (m.bases && m.bases.length > 0) {
-        linhas.push(`  - Base: ${m.bases.join(", ")}`);
-      }
-      if (m.proteinas && m.proteinas.length > 0) {
-        linhas.push(`  - Proteínas: ${m.proteinas.join(", ")}`);
-      }
-      if (m.molhos && m.molhos.length > 0) {
-        linhas.push(`  - Molhos: ${m.molhos.join(", ")}`);
-      }
-      if (m.acompanhamentos && m.acompanhamentos.length > 0) {
-        linhas.push(`  - Acompanhamentos: ${m.acompanhamentos.join(", ")}`);
-      }
-      if (m.crispys && m.crispys.length > 0) {
-        linhas.push(`  - Crispys: ${m.crispys.join(", ")}`);
-      }
-      if (m.proteinasExtras && m.proteinasExtras.length > 0) {
-        linhas.push(`  - Proteína Extra: ${m.proteinasExtras.join(", ")}`);
-      }
-      if (m.adicionais && m.adicionais.length > 0) {
-        linhas.push(`  - Adicionais: ${m.adicionais.join(", ")}`);
-      }
-      if (m.talher) {
-        linhas.push(`  - Talher: ${m.talher}`);
-      }
-    }
-
-    if (item.observacao) {
-      linhas.push(`  - Obs: ${item.observacao}`);
-    }
-  });
-
-  linhas.push("----------------------------------------");
-  linhas.push(`*TOTAL DOS ITENS:* ${formatarPreco(total)}`);
-
-  const nomesPagamento: Record<DadosPedido["formaPagamento"], string> = {
-    pix: "Pix",
-    cartao_credito: "Cartão de Crédito (na entrega/retirada)",
-    cartao_debito: "Cartão de Débito (na entrega/retirada)",
-    dinheiro: pedido.trocoPara
-      ? `Dinheiro (Troco para ${pedido.trocoPara})`
-      : "Dinheiro (sem troco)",
-  };
-
-  linhas.push(`*Forma de pagamento:* ${nomesPagamento[pedido.formaPagamento]}`);
-
-  if (pedido.observacoes?.trim()) {
-    linhas.push("");
-    linhas.push(`*Observações gerais:* ${pedido.observacoes.trim()}`);
-  }
-
-  linhas.push("----------------------------------------");
-  linhas.push(`Loja: ${LOJA.enderecoLinha} — ${LOJA.bairro}, ${LOJA.cidade}/${LOJA.estado}`);
-  linhas.push(`Horário de atendimento: ${LOJA.horario}`);
-
-  return linhas.join("\n");
+  return NOMES_PAGAMENTO[c.pagamento];
 }
 
-export function gerarLinkWhatsApp(
-  pedido: DadosPedido,
-  itens: ItemCarrinho[]
-): { url: string; pendenteConfirmacaoNumero: boolean } {
-  const mensagem = formatarMensagemWhatsApp(pedido, itens);
-  const textoCodificado = encodeURIComponent(mensagem);
+export function formatarMensagemWhatsApp(cliente: DadosCliente, linhas: LinhaSacola[]): string {
+  const total = linhas.reduce((a, l) => a + l.precoUnitario * l.quantidade, 0);
+  const m: string[] = [];
 
-  if (WHATSAPP_PEDIDOS) {
-    const numeroLimpo = WHATSAPP_PEDIDOS.replace(/\D/g, "");
-    return {
-      url: `https://wa.me/${numeroLimpo}?text=${textoCodificado}`,
-      pendenteConfirmacaoNumero: false,
-    };
+  m.push(`*Pedido pelo site — ${LOJA.nome}*`);
+  m.push("");
+  m.push(`*Nome:* ${cliente.nome.trim()}`);
+  if (cliente.tipoEntrega === "entrega") {
+    m.push("*Entrega*");
+    m.push(`Endereço: ${cliente.endereco.trim()}`);
+    if (cliente.bairro.trim()) m.push(`Bairro: ${cliente.bairro.trim()}`);
+    if (cliente.complemento.trim()) m.push(`Complemento: ${cliente.complemento.trim()}`);
+    if (cliente.referencia.trim()) m.push(`Referência: ${cliente.referencia.trim()}`);
+  } else {
+    m.push(`*Retirada na loja* (${LOJA.local})`);
   }
 
-  // Enquanto WHATSAPP_PEDIDOS for null, abre https://wa.me/?text=...
-  return {
-    url: `https://wa.me/?text=${textoCodificado}`,
-    pendenteConfirmacaoNumero: true,
-  };
+  m.push("");
+  m.push("*Itens*");
+  for (const l of linhas) {
+    m.push(`${l.quantidade}x ${l.nome} — ${formatarPreco(l.precoUnitario * l.quantidade)}`);
+    for (const r of l.montagem?.resumo ?? []) {
+      m.push(`   ${r.titulo}: ${r.itens.join(", ")}`);
+    }
+    if (l.observacao) m.push(`   Obs.: ${l.observacao}`);
+  }
+
+  m.push("");
+  m.push(`*Total dos itens:* ${formatarPreco(total)}`);
+  if (cliente.tipoEntrega === "entrega") m.push("Taxa de entrega: a combinar");
+  m.push(`*Pagamento:* ${nomePagamento(cliente)}`);
+  if (cliente.observacoes.trim()) {
+    m.push("");
+    m.push(`*Observações:* ${cliente.observacoes.trim()}`);
+  }
+
+  return m.join("\n");
+}
+
+export function gerarLinkWhatsApp(cliente: DadosCliente, linhas: LinhaSacola[]) {
+  const texto = encodeURIComponent(formatarMensagemWhatsApp(cliente, linhas));
+  if (WHATSAPP_PEDIDOS) {
+    return `https://wa.me/${WHATSAPP_PEDIDOS.replace(/\D/g, "")}?text=${texto}`;
+  }
+  // Sem número definido: o WhatsApp abre e a pessoa escolhe o contato
+  return `https://wa.me/?text=${texto}`;
 }

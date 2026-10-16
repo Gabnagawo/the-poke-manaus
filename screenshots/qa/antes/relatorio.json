@@ -1,0 +1,3568 @@
+{
+  "url": "https://the-poke-manaus.pages.dev",
+  "rotulo": "antes",
+  "timestamp": "2026-10-16 02:13:37",
+  "viewports": {
+    "360": {
+      "width": 360,
+      "height": 740,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 32,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 175,
+          "right": 415,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 175,
+          "right": 415,
+          "docWidth": 360
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 175,
+          "right": 415,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 145,
+          "right": 400,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 145,
+          "right": 400,
+          "docWidth": 360
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 145,
+          "right": 400,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#DEB8A3] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 480,
+          "docWidth": 360
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 480,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "h3",
+          "id": null,
+          "classes": "tilt-card-right font-display font-black text-xl md:text-2xl sm:text-3xl text-[#0",
+          "width": 150,
+          "right": 413,
+          "docWidth": 360
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": "font-display font-extrabold text-xs md:text-sm text-[#0E2A38]",
+          "width": 119,
+          "right": 383,
+          "docWidth": 360
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 93,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 76,
+          "right": 488,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 504,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#D9C3CE] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 744,
+          "docWidth": 360
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 744,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "h3",
+          "id": null,
+          "classes": "tilt-card-left font-display font-black text-xl md:text-2xl sm:text-3xl text-[#0E",
+          "width": 164,
+          "right": 691,
+          "docWidth": 360
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": "font-display font-extrabold text-xs md:text-sm text-[#0E2A38]",
+          "width": 109,
+          "right": 637,
+          "docWidth": 360
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 79,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 63,
+          "right": 752,
+          "docWidth": 360
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 768,
+          "docWidth": 360
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "classes": "min-h-[44px] px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-display font-bold upper",
+          "width": 127,
+          "right": 396,
+          "docWidth": 360
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "classes": "min-h-[44px] px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-display font-bold upper",
+          "width": 73,
+          "right": 473,
+          "docWidth": 360
+        }
+      ],
+      "small_touch_targets_count": 14,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 106.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 92.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 136.4,
+          "height": 32,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 328,
+          "height": 20,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 44,
+          "ratio": "14.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 171,
+          "ratio": "5.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 145,
+          "ratio": "5.12"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 175,
+          "ratio": "5.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 145,
+          "ratio": "6.23"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 192,
+          "ratio": "3.85"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 264,
+          "ratio": "2.80"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 1288,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 31,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 175,
+          "right": 445,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 175,
+          "right": 445,
+          "docWidth": 390
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 175,
+          "right": 445,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 145,
+          "right": 430,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 145,
+          "right": 430,
+          "docWidth": 390
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 145,
+          "right": 430,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#DEB8A3] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 480,
+          "docWidth": 390
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 480,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "h3",
+          "id": null,
+          "classes": "tilt-card-right font-display font-black text-xl md:text-2xl sm:text-3xl text-[#0",
+          "width": 150,
+          "right": 413,
+          "docWidth": 390
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 93,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 76,
+          "right": 488,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 504,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#D9C3CE] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 744,
+          "docWidth": 390
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 744,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "h3",
+          "id": null,
+          "classes": "tilt-card-left font-display font-black text-xl md:text-2xl sm:text-3xl text-[#0E",
+          "width": 164,
+          "right": 691,
+          "docWidth": 390
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": "font-display font-extrabold text-xs md:text-sm text-[#0E2A38]",
+          "width": 109,
+          "right": 637,
+          "docWidth": 390
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 79,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 63,
+          "right": 752,
+          "docWidth": 390
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 768,
+          "docWidth": 390
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "classes": "min-h-[44px] px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-display font-bold upper",
+          "width": 127,
+          "right": 396,
+          "docWidth": 390
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "classes": "min-h-[44px] px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-display font-bold upper",
+          "width": 73,
+          "right": 473,
+          "docWidth": 390
+        }
+      ],
+      "small_touch_targets_count": 14,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 106.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 92.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 136.4,
+          "height": 32,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 358,
+          "height": 20,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 44,
+          "ratio": "14.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 171,
+          "ratio": "5.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 145,
+          "ratio": "5.12"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 175,
+          "ratio": "5.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 145,
+          "ratio": "6.23"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 192,
+          "ratio": "3.85"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 294,
+          "ratio": "2.52"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 684,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    },
+    "430": {
+      "width": 430,
+      "height": 932,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 29,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 175,
+          "right": 485,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 175,
+          "right": 485,
+          "docWidth": 430
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 175,
+          "right": 485,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 145,
+          "right": 470,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 145,
+          "right": 470,
+          "docWidth": 430
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 145,
+          "right": 470,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#DEB8A3] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 480,
+          "docWidth": 430
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 480,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 93,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 76,
+          "right": 488,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 504,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "flex flex-col space-y-4 md:space-y-5 group shrink-0 w-[240px] md:w-auto snap-sta",
+          "width": 240,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative aspect-square bg-[#D9C3CE] rounded-[1px] p-6 md:p-8 flex items-center j",
+          "width": 240,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_24px_rgba(0,0,0,0.14)]",
+          "width": 192,
+          "right": 744,
+          "docWidth": 430
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 192,
+          "right": 744,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "space-y-2 md:space-y-3",
+          "width": 240,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "h3",
+          "id": null,
+          "classes": "tilt-card-left font-display font-black text-xl md:text-2xl sm:text-3xl text-[#0E",
+          "width": 164,
+          "right": 691,
+          "docWidth": 430
+        },
+        {
+          "tag": "p",
+          "id": null,
+          "classes": "text-xs md:text-sm text-[#59655D] leading-relaxed",
+          "width": 240,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "pt-2 flex items-center justify-between",
+          "width": 240,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": "font-display font-extrabold text-xs md:text-sm text-[#0E2A38]",
+          "width": 109,
+          "right": 637,
+          "docWidth": 430
+        },
+        {
+          "tag": "a",
+          "id": null,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider text-[#0E2A38] hove",
+          "width": 79,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 63,
+          "right": 752,
+          "docWidth": 430
+        },
+        {
+          "tag": "span",
+          "id": null,
+          "classes": null,
+          "width": 10,
+          "right": 768,
+          "docWidth": 430
+        },
+        {
+          "tag": "button",
+          "id": null,
+          "classes": "min-h-[44px] px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-display font-bold upper",
+          "width": 73,
+          "right": 473,
+          "docWidth": 430
+        }
+      ],
+      "small_touch_targets_count": 14,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 106.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 92.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 136.4,
+          "height": 32,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 398,
+          "height": 20,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 44,
+          "ratio": "14.55"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 171,
+          "ratio": "5.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 145,
+          "ratio": "5.12"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 175,
+          "ratio": "5.16"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 145,
+          "ratio": "6.23"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 192,
+          "ratio": "3.85"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 192,
+          "ratio": "4.69"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 334,
+          "ratio": "2.22"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 76,
+          "ratio": "11.84"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 700,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 9,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 291,
+          "right": 849,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 291,
+          "right": 849,
+          "docWidth": 768
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 291,
+          "right": 849,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 235,
+          "right": 821,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 235,
+          "right": 821,
+          "docWidth": 768
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 235,
+          "right": 821,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "hidden md:block absolute top-1/2 -translate-y-1/2 -right-16 lg:-right-12 w-48 h-",
+          "width": 208,
+          "right": 840,
+          "docWidth": 768
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_22px_rgba(0,0,0,0.14)]",
+          "width": 208,
+          "right": 840,
+          "docWidth": 768
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 208,
+          "right": 840,
+          "docWidth": 768
+        }
+      ],
+      "small_touch_targets_count": 21,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "Monte seu Poke",
+          "width": 94.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2 cursor-pointer"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO",
+          "width": 66.3,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "SOBRE",
+          "width": 42.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "HORÁRIOS",
+          "width": 66.8,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 95.3,
+          "height": 32,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 87.6,
+          "height": 32,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 159.1,
+          "height": 36,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 150,
+          "height": 40,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 304,
+          "ratio": "2.96"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 253,
+          "ratio": "2.92"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 291,
+          "ratio": "3.09"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 235,
+          "ratio": "3.83"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 208,
+          "ratio": "4.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 155,
+          "ratio": "5.82"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 155,
+          "ratio": "4.78"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 155,
+          "ratio": "5.82"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 356,
+          "ratio": "2.08"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 284,
+          "ratio": "3.17"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 284,
+          "ratio": "3.17"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 284,
+          "ratio": "3.17"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 676,
+      "cls": 0.008,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    },
+    "1024": {
+      "width": 1024,
+      "height": 768,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 9,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 388,
+          "right": 1114,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 388,
+          "right": 1114,
+          "docWidth": 1024
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 388,
+          "right": 1114,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 307,
+          "right": 1082,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 307,
+          "right": 1082,
+          "docWidth": 1024
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 307,
+          "right": 1082,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "hidden md:block absolute top-1/2 -translate-y-1/2 -right-16 lg:-right-12 w-48 h-",
+          "width": 260,
+          "right": 1082,
+          "docWidth": 1024
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_22px_rgba(0,0,0,0.14)]",
+          "width": 260,
+          "right": 1082,
+          "docWidth": 1024
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 260,
+          "right": 1082,
+          "docWidth": 1024
+        }
+      ],
+      "small_touch_targets_count": 22,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "Monte seu Poke",
+          "width": 94.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2 cursor-pointer"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO",
+          "width": 66.3,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "SOBRE",
+          "width": 42.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "HORÁRIOS",
+          "width": 66.8,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus",
+          "width": 88.6,
+          "height": 18,
+          "classes": "hidden lg:inline-flex text-[12px] font-bold uppercase tracki"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 106.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 92.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 159.1,
+          "height": 36,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 214,
+          "height": 20,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 380,
+          "ratio": "2.37"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 325,
+          "ratio": "2.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 388,
+          "ratio": "2.32"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 307,
+          "ratio": "2.93"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 260,
+          "ratio": "3.46"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 240,
+          "ratio": "3.75"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 240,
+          "ratio": "3.08"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 240,
+          "ratio": "3.75"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 315,
+          "ratio": "2.35"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 243,
+          "ratio": "3.71"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 243,
+          "ratio": "3.71"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 243,
+          "ratio": "3.71"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 636,
+      "cls": 0.049,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "overflow_count": 9,
+      "overflow_elements": [
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -top-10 -right-10 sm:-top-14 sm:-right-14 w-36 h-36 sm:w-60 sm:h-60 lg:",
+          "width": 388,
+          "right": 1530,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]",
+          "width": 388,
+          "right": 1530,
+          "docWidth": 1440
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 388,
+          "right": 1530,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-10 w-32 h-32 sm:w-52 sm:h-52",
+          "width": 307,
+          "right": 1498,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_18px_24px_rgba(0,0,0,0.16)]",
+          "width": 307,
+          "right": 1498,
+          "docWidth": 1440
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 307,
+          "right": 1498,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "hidden md:block absolute top-1/2 -translate-y-1/2 -right-16 lg:-right-12 w-48 h-",
+          "width": 260,
+          "right": 1498,
+          "docWidth": 1440
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "classes": "relative w-full h-full drop-shadow-[0_16px_22px_rgba(0,0,0,0.14)]",
+          "width": 260,
+          "right": 1498,
+          "docWidth": 1440
+        },
+        {
+          "tag": "img",
+          "id": null,
+          "classes": "object-contain",
+          "width": 260,
+          "right": 1498,
+          "docWidth": 1440
+        }
+      ],
+      "small_touch_targets_count": 22,
+      "small_touch_targets": [
+        {
+          "tag": "button",
+          "text": "Monte seu Poke",
+          "width": 94.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2 cursor-pointer"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO",
+          "width": 66.3,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "SOBRE",
+          "width": 42.2,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "HORÁRIOS",
+          "width": 66.8,
+          "height": 35.5,
+          "classes": "hover:text-[#2A7CA1] transition-colors py-2"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus",
+          "width": 88.6,
+          "height": 18,
+          "classes": "hidden lg:inline-flex text-[12px] font-bold uppercase tracki"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR AGORA\n→",
+          "width": 106.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER RECEITAS\n→",
+          "width": 92.6,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "VER SUCOS\n→",
+          "width": 79.5,
+          "height": 16,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "CARDÁPIO NO IFOOD ↗",
+          "width": 159.1,
+          "height": 36,
+          "classes": "text-xs sm:text-sm font-display font-bold uppercase tracking"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "button",
+          "text": "MONTAR\n→",
+          "width": 63.7,
+          "height": 24,
+          "classes": "text-xs font-display font-extrabold uppercase tracking-wider"
+        },
+        {
+          "tag": "a",
+          "text": "SIGA @THEPOKEMANAUS NO INSTAGRAM",
+          "width": 240.1,
+          "height": 15,
+          "classes": "text-xs font-display font-bold uppercase tracking-wider text"
+        },
+        {
+          "tag": "a",
+          "text": "PEDIR NO IFOOD MANAUS ↗",
+          "width": 183.1,
+          "height": 16,
+          "classes": "inline-flex items-center text-xs font-bold uppercase trackin"
+        },
+        {
+          "tag": "a",
+          "text": "Monte seu Poke",
+          "width": 100.9,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Cardápio",
+          "width": 58.4,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Sobre a Franquia",
+          "width": 105.7,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Horários",
+          "width": 53.8,
+          "height": 17,
+          "classes": "hover:text-[#F7EA48] transition-colors"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram @thepokemanaus\n↗",
+          "width": 243,
+          "height": 20,
+          "classes": "hover:text-[#F7EA48] transition-colors flex items-center spa"
+        },
+        {
+          "tag": "a",
+          "text": "Política de Privacidade",
+          "width": 121,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "Termos de Uso",
+          "width": 81.3,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        },
+        {
+          "tag": "a",
+          "text": "llms.txt",
+          "width": 40.2,
+          "height": 24,
+          "classes": "hover:text-[#FCF9F0] transition-colors underline-offset-4 ho"
+        }
+      ],
+      "image_issues_count": 17,
+      "image_issues": [
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 380,
+          "ratio": "2.37"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 325,
+          "ratio": "2.27"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 388,
+          "ratio": "2.32"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 307,
+          "ratio": "2.93"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": null,
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 260,
+          "ratio": "3.46"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Monte seu Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 279,
+          "ratio": "3.23"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da Casa",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 740,
+          "displayedWidth": 279,
+          "ratio": "2.66"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "alt": "Sucos Especiais",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 279,
+          "ratio": "3.23"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "alt": "Poke Makaha da The Poke Manaus",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 740,
+          "displayedWidth": 356,
+          "ratio": "2.08"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "alt": "Poke Pequeno",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 281,
+          "ratio": "3.20"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "alt": "Poke Médio",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 281,
+          "ratio": "3.20"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": false,
+          "naturalWidth": 900,
+          "displayedWidth": 0,
+          "ratio": null
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "alt": "Poke Grande",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 900,
+          "displayedWidth": 281,
+          "ratio": "3.20"
+        },
+        {
+          "src": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "alt": "The Poke",
+          "missingAlt": false,
+          "missingDimensions": true,
+          "tooHeavy": true,
+          "naturalWidth": 640,
+          "displayedWidth": 48,
+          "ratio": "13.33"
+        }
+      ],
+      "bytes_transferred": {
+        "total_kb": 833.0,
+        "img_kb": 698.1,
+        "font_kb": 135.0,
+        "script_kb": 0.0,
+        "css_kb": 0.0,
+        "other_kb": 0.0
+      },
+      "top_10_files": [
+        {
+          "url": "poke-grande.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-grande.webp",
+          "size_kb": 149.2,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio.webp",
+          "size_kb": 128.8,
+          "type": "img"
+        },
+        {
+          "url": "poke-makaha.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-makaha.webp",
+          "size_kb": 111.0,
+          "type": "img"
+        },
+        {
+          "url": "poke-medio-frango-grelhado.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-medio-frango-grelhado.webp",
+          "size_kb": 110.4,
+          "type": "img"
+        },
+        {
+          "url": "poke-pequeno.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/poke-pequeno.webp",
+          "size_kb": 86.1,
+          "type": "img"
+        },
+        {
+          "url": "anti-ox.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/pratos/anti-ox.webp",
+          "size_kb": 83.1,
+          "type": "img"
+        },
+        {
+          "url": "logo.webp",
+          "full_url": "https://the-poke-manaus.pages.dev/images/logo/logo.webp",
+          "size_kb": 29.3,
+          "type": "img"
+        },
+        {
+          "url": "CabinetGrotesk-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-400.woff2",
+          "size_kb": 24.9,
+          "type": "font"
+        },
+        {
+          "url": "CabinetGrotesk-700.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/substitute/CabinetGrotesk-700.woff2",
+          "size_kb": 24.7,
+          "type": "font"
+        },
+        {
+          "url": "GeneralSans-400.woff2",
+          "full_url": "https://the-poke-manaus.pages.dev/fonts/general-sans/GeneralSans-400.woff2",
+          "size_kb": 22.5,
+          "type": "font"
+        }
+      ],
+      "lcp_ms": 560,
+      "cls": 0.025,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "unloaded",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "General Sans",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Cabinet Grotesk",
+          "status": "loaded",
+          "weight": "800",
+          "style": "normal"
+        }
+      ]
+    }
+  }
+}

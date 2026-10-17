@@ -1,6 +1,6 @@
 "use client";
 
-// Celular: barra fixa da sacola, só quando há itens (como iFood e Poke House).
+// Celular: barra fixa da sacola, só quando há itens (como Poke House).
 // O aviso de "adicionado" aparece dentro da própria barra, sem pop-up por cima.
 // Desktop: o aviso aparece no canto, com atalho para a sacola.
 

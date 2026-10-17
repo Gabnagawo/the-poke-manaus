@@ -5,7 +5,7 @@
 import { useEffect, useState } from "react";
 import { LOJA, statusLoja, type StatusLoja } from "@/lib/loja";
 import { dimensoes, fotoSrc, fotoSrcSet } from "@/lib/fotos";
-import { IconeInstagram, IconeLocal, IconeSetaExterna } from "@/components/ui/Icones";
+import { IconeInstagram, IconeLocal } from "@/components/ui/Icones";
 
 export function Horarios() {
   const [status, setStatus] = useState<StatusLoja | null>(null);
@@ -55,16 +55,11 @@ export function Horarios() {
               <IconeLocal className="w-[18px] h-[18px]" />
               Como chegar
             </a>
-            <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
-              Pedir no iFood
-              <IconeSetaExterna />
-            </a>
             <a href={LOJA.instagram} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
               <IconeInstagram className="w-[18px] h-[18px]" />
               Instagram
             </a>
           </div>
-          <p className="mt-4 text-[13px] text-petroleo/90">No iFood, o pedido mínimo é de R$ 20,00.</p>
         </div>
 
         <img

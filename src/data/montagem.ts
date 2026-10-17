@@ -1,5 +1,5 @@
 // Opções oficiais para a montagem de poke personalizada (Monte seu Poke)
-// Fonte direta: the-poke/CARDAPIO-montagem.md (coletado no iFood The Poke Manaus Aleixo)
+// Fonte direta: the-poke/CARDAPIO-montagem.md (briefing do cliente The Poke Manaus Aleixo)
 
 export interface OpcaoMontagem {
   id: string;
@@ -252,7 +252,7 @@ export function configTamanho(t: Tamanho): ConfigMontagem {
 }
 
 /**
- * Receitas da casa que pedem escolhas (a descrição do iFood diz "+ 1 base + N acompanhamentos +
+ * Receitas da casa que pedem escolhas (a descrição do briefing do cliente diz "+ 1 base + N acompanhamentos +
  * 2 molhos + N crispys"). A proteína vem pronta; as listas de opções são as mesmas do Monte seu Poke.
  * [A CONFIRMAR com o cliente: se as opções das receitas são as mesmas da montagem.]
  */

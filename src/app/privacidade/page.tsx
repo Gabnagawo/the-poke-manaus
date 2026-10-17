@@ -44,7 +44,7 @@ export default function PrivacidadePage() {
       <section>
         <h2>Compartilhamento</h2>
         <p>
-          Não vendemos nem repassamos dados de clientes. Pedidos feitos pelo iFood seguem a política de privacidade do iFood.
+          Não vendemos nem repassamos dados de clientes.
         </p>
       </section>
       <section>

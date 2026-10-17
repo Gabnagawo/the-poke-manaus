@@ -17,7 +17,6 @@ import {
   IconeFechar,
   IconeLapis,
   IconeSeta,
-  IconeSetaExterna,
   IconeVoltar,
   IconeWhatsApp,
 } from "@/components/ui/Icones";
@@ -523,17 +522,6 @@ export function Sacola() {
             >
               <IconeWhatsApp />
               Enviar pelo WhatsApp
-            </a>
-          )}
-          {passo === "itens" && (
-            <a
-              href={LOJA.linkIfood}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-1 flex items-center justify-center gap-1.5 min-h-11 text-[13px] font-bold uppercase tracking-[0.06em] text-tinta-suave hover:text-petroleo"
-            >
-              Prefere o iFood? Peça por lá
-              <IconeSetaExterna />
             </a>
           )}
         </div>

@@ -1,4 +1,4 @@
-// Fotos do cardápio: recortes reais (iFood) já aparados no tamanho do prato,
+// Fotos do cardápio: recortes reais (briefing do cliente) já aparados no tamanho do prato,
 // gerados por scripts/gerar-fotos-cardapio.py em 200, 400 e 800 px de largura.
 
 import { DIMENSOES_FOTOS } from "@/data/dimensoes-fotos";

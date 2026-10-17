@@ -10,7 +10,7 @@ import { LOJA, statusLoja } from "@/lib/loja";
 import { aoClicarAncora, irPara } from "@/lib/rolagem";
 import { Logo } from "@/components/ui/Logo";
 import { Painel } from "@/components/ui/Painel";
-import { IconeFechar, IconeInstagram, IconeMenu, IconeSacola, IconeSetaExterna } from "@/components/ui/Icones";
+import { IconeFechar, IconeInstagram, IconeMenu, IconeSacola } from "@/components/ui/Icones";
 
 const LINKS = [
   { id: "cardapio", texto: "Cardápio" },
@@ -170,10 +170,6 @@ export function Header({ inicio = true }: { inicio?: boolean }) {
               <a href={LOJA.instagram} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
                 <IconeInstagram className="w-[18px] h-[18px]" />
                 Instagram
-              </a>
-              <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className="botao botao-contorno">
-                iFood
-                <IconeSetaExterna />
               </a>
             </div>
           </div>

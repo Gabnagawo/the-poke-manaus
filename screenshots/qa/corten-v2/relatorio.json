@@ -1,0 +1,609 @@
+{
+  "url": "http://localhost:3009/",
+  "rotulo": "corten-v2",
+  "browser": "Microsoft Edge (Chromium)",
+  "browser_type": "edge",
+  "timestamp": "2026-10-16 16:31:13",
+  "viewports": {
+    "360": {
+      "width": 360,
+      "height": 740,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 360,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2361.3,
+        "img_kb": 926.2,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 852.0
+      },
+      "top_10_files": [
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        },
+        {
+          "url": "armacao-aerea-640.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-640.webp",
+          "size_kb": 128.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://localhost:3009/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 102.0,
+          "type": "other"
+        },
+        {
+          "url": "trelica-espacial-640.webp",
+          "full_url": "http://localhost:3009/img/trelica-espacial-640.webp",
+          "size_kb": 97.1,
+          "type": "img"
+        },
+        {
+          "url": "Archivo-var.woff2",
+          "full_url": "http://localhost:3009/fonts/Archivo-var.woff2",
+          "size_kb": 88.0,
+          "type": "font"
+        },
+        {
+          "url": "galpao-em-montagem-640.webp",
+          "full_url": "http://localhost:3009/img/galpao-em-montagem-640.webp",
+          "size_kb": 60.9,
+          "type": "img"
+        },
+        {
+          "url": "fachada-vidro-v-640.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-640.webp",
+          "size_kb": 57.6,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 384,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 390,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2361.3,
+        "img_kb": 926.2,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 852.0
+      },
+      "top_10_files": [
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        },
+        {
+          "url": "armacao-aerea-640.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-640.webp",
+          "size_kb": 128.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://localhost:3009/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 102.0,
+          "type": "other"
+        },
+        {
+          "url": "trelica-espacial-640.webp",
+          "full_url": "http://localhost:3009/img/trelica-espacial-640.webp",
+          "size_kb": 97.1,
+          "type": "img"
+        },
+        {
+          "url": "Archivo-var.woff2",
+          "full_url": "http://localhost:3009/fonts/Archivo-var.woff2",
+          "size_kb": 88.0,
+          "type": "font"
+        },
+        {
+          "url": "galpao-em-montagem-640.webp",
+          "full_url": "http://localhost:3009/img/galpao-em-montagem-640.webp",
+          "size_kb": 60.9,
+          "type": "img"
+        },
+        {
+          "url": "fachada-vidro-v-640.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-640.webp",
+          "size_kb": 57.6,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 156,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    },
+    "430": {
+      "width": 430,
+      "height": 932,
+      "is_mobile": true,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 430,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 2332.9,
+        "img_kb": 897.9,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 852.0
+      },
+      "top_10_files": [
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        },
+        {
+          "url": "armacao-aerea-640.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-640.webp",
+          "size_kb": 128.5,
+          "type": "img"
+        },
+        {
+          "url": "__next._index.txt",
+          "full_url": "http://localhost:3009/__next._index.txt?_rsc=yIp22O3xgPPxC28X",
+          "size_kb": 102.0,
+          "type": "other"
+        },
+        {
+          "url": "trelica-espacial-640.webp",
+          "full_url": "http://localhost:3009/img/trelica-espacial-640.webp",
+          "size_kb": 97.1,
+          "type": "img"
+        },
+        {
+          "url": "Archivo-var.woff2",
+          "full_url": "http://localhost:3009/fonts/Archivo-var.woff2",
+          "size_kb": 88.0,
+          "type": "font"
+        },
+        {
+          "url": "galpao-em-montagem-640.webp",
+          "full_url": "http://localhost:3009/img/galpao-em-montagem-640.webp",
+          "size_kb": 60.9,
+          "type": "img"
+        },
+        {
+          "url": "fachada-vidro-v-640.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-640.webp",
+          "size_kb": 57.6,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 160,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 768,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 0,
+      "small_touch_targets": [],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 3428.2,
+        "img_kb": 1993.2,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 852.0
+      },
+      "top_10_files": [
+        {
+          "url": "armacao-aerea-1280.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-1280.webp",
+          "size_kb": 393.9,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "galpao-piso-epoxi-1280.webp",
+          "full_url": "http://localhost:3009/img/galpao-piso-epoxi-1280.webp",
+          "size_kb": 196.2,
+          "type": "img"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        },
+        {
+          "url": "galpao-estrutura-vazio-1280.webp",
+          "full_url": "http://localhost:3009/img/galpao-estrutura-vazio-1280.webp",
+          "size_kb": 172.6,
+          "type": "img"
+        },
+        {
+          "url": "fachada-vidro-v-1280.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-1280.webp",
+          "size_kb": 149.9,
+          "type": "img"
+        },
+        {
+          "url": "vergalhoes-canteiro-1280.webp",
+          "full_url": "http://localhost:3009/img/vergalhoes-canteiro-1280.webp",
+          "size_kb": 147.7,
+          "type": "img"
+        },
+        {
+          "url": "pavilhao-industrial-1280.webp",
+          "full_url": "http://localhost:3009/img/pavilhao-industrial-1280.webp",
+          "size_kb": 135.2,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 96,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    },
+    "1024": {
+      "width": 1024,
+      "height": 768,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1024,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 1,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Obras",
+          "selector": "header.fixed.inset-x-0 > div.relative.mx-auto:nth-of-type(2) > nav.hidden.items-center > a.relative.py-3:nth-of-type(3)",
+          "width": 38.8,
+          "height": 45,
+          "classes": "relative py-3 text-[14px] font-medium transition-opacity hov"
+        }
+      ],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 3184.4,
+        "img_kb": 1732.2,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 869.1
+      },
+      "top_10_files": [
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "galpao-piso-epoxi-1280.webp",
+          "full_url": "http://localhost:3009/img/galpao-piso-epoxi-1280.webp",
+          "size_kb": 196.2,
+          "type": "img"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        },
+        {
+          "url": "galpao-estrutura-vazio-1280.webp",
+          "full_url": "http://localhost:3009/img/galpao-estrutura-vazio-1280.webp",
+          "size_kb": 172.6,
+          "type": "img"
+        },
+        {
+          "url": "fachada-vidro-v-1280.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-1280.webp",
+          "size_kb": 149.9,
+          "type": "img"
+        },
+        {
+          "url": "fabrica-branca-1280.webp",
+          "full_url": "http://localhost:3009/img/fabrica-branca-1280.webp",
+          "size_kb": 146.3,
+          "type": "img"
+        },
+        {
+          "url": "armacao-aerea-640.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-640.webp",
+          "size_kb": 128.5,
+          "type": "img"
+        },
+        {
+          "url": "novamed-aerea-1280.webp",
+          "full_url": "http://localhost:3009/img/novamed-aerea-1280.webp",
+          "size_kb": 104.5,
+          "type": "img"
+        }
+      ],
+      "lcp_ms": 148,
+      "cls": 0,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "is_mobile": false,
+      "console_errors": [],
+      "page_errors": [],
+      "doc_scroll_width": 1440,
+      "has_doc_scroll": false,
+      "overflow_count": 0,
+      "overflow_elements": [],
+      "small_touch_targets_count": 1,
+      "small_touch_targets": [
+        {
+          "tag": "a",
+          "text": "Obras",
+          "selector": "header.fixed.inset-x-0 > div.relative.mx-auto:nth-of-type(2) > nav.hidden.items-center > a.relative.py-3:nth-of-type(3)",
+          "width": 38.8,
+          "height": 45,
+          "classes": "relative py-3 text-[14px] font-medium transition-opacity hov"
+        }
+      ],
+      "image_issues_count": 0,
+      "image_issues": [],
+      "bytes_transferred": {
+        "total_kb": 4684.5,
+        "img_kb": 3215.8,
+        "font_kb": 88.0,
+        "script_kb": 495.0,
+        "css_kb": 0.0,
+        "other_kb": 885.7
+      },
+      "top_10_files": [
+        {
+          "url": "armacao-aerea-1280.webp",
+          "full_url": "http://localhost:3009/img/armacao-aerea-1280.webp",
+          "size_kb": 393.9,
+          "type": "img"
+        },
+        {
+          "url": "galpao-piso-epoxi-1920.webp",
+          "full_url": "http://localhost:3009/img/galpao-piso-epoxi-1920.webp",
+          "size_kb": 350.5,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "http://localhost:3009/",
+          "full_url": "http://localhost:3009/",
+          "size_kb": 321.4,
+          "type": "other"
+        },
+        {
+          "url": "galpao-estrutura-vazio-1920.webp",
+          "full_url": "http://localhost:3009/img/galpao-estrutura-vazio-1920.webp",
+          "size_kb": 292.3,
+          "type": "img"
+        },
+        {
+          "url": "fabrica-branca-1920.webp",
+          "full_url": "http://localhost:3009/img/fabrica-branca-1920.webp",
+          "size_kb": 231.3,
+          "type": "img"
+        },
+        {
+          "url": "3dmm3v_fq28gc.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/3dmm3v_fq28gc.js",
+          "size_kb": 224.4,
+          "type": "script"
+        },
+        {
+          "url": "fachada-vidro-v-1920.webp",
+          "full_url": "http://localhost:3009/img/fachada-vidro-v-1920.webp",
+          "size_kb": 215.8,
+          "type": "img"
+        },
+        {
+          "url": "novamed-aerea-1920.webp",
+          "full_url": "http://localhost:3009/img/novamed-aerea-1920.webp",
+          "size_kb": 184.1,
+          "type": "img"
+        },
+        {
+          "url": "220o6dnifhgxa.js",
+          "full_url": "http://localhost:3009/_next/static/chunks/220o6dnifhgxa.js",
+          "size_kb": 174.4,
+          "type": "script"
+        }
+      ],
+      "lcp_ms": 120,
+      "cls": 0.001,
+      "long_tasks_count": 0,
+      "long_tasks": [],
+      "fonts": [
+        {
+          "family": "Archivo",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        }
+      ]
+    }
+  }
+}

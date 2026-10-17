@@ -37,16 +37,6 @@ export function Footer() {
                 Cardápio
               </Link>
             </li>
-            <li>
-              <a
-                href={LOJA.linkIfood}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center gap-1.5 hover:text-amarelo transition-colors"
-              >
-                iFood <IconeSetaExterna />
-              </a>
-            </li>
           </ul>
         </div>
         <div>

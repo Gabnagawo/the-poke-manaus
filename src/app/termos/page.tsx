@@ -37,10 +37,6 @@ export default function TermosPage() {
           o quanto antes, antes do preparo.
         </p>
       </section>
-      <section>
-        <h2>Pedidos pelo iFood</h2>
-        <p>Pedidos feitos pelo iFood seguem os termos, as taxas e as formas de pagamento do iFood.</p>
-      </section>
     </PaginaLegal>
   );
 }

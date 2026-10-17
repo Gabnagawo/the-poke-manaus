@@ -108,7 +108,7 @@ export function gerarEsquemaRestaurante() {
         },
       ],
     },
-    sameAs: [LOJA.linkIfood, LOJA.instagram, LOJA.redeInstagram, LOJA.redeSite],
+    sameAs: [LOJA.instagram, LOJA.redeInstagram, LOJA.redeSite],
   };
 }
 
@@ -125,7 +125,6 @@ Restaurante de poke em Manaus/AM, no Condomínio Park Mall Ephigênio (bairro Al
 - Funcionamento: ${LOJA.horario}
 - CNPJ: ${LOJA.cnpj}
 - Instagram: ${LOJA.instagramHandle} (${LOJA.instagram})
-- Delivery Oficial: iFood (${LOJA.linkIfood})
 
 ## Cardápio e Preços
 ### Monte seu Poke

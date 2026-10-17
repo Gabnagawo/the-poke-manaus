@@ -9,7 +9,6 @@ import { preload } from "react-dom";
 import { usePedido, type TipoEntrega } from "@/lib/pedido";
 import { LOJA, statusLoja } from "@/lib/loja";
 import { irPara } from "@/lib/rolagem";
-import { IconeSetaExterna } from "@/components/ui/Icones";
 
 const MESA_CELULAR = "/images/hero/mesa-mobile-720.webp 720w, /images/hero/mesa-mobile-900.webp 900w, /images/hero/mesa-mobile.webp 1080w";
 const MESA_DESKTOP = "/images/hero/mesa-desktop-1600.webp 1600w, /images/hero/mesa-desktop.webp 2400w";
@@ -88,10 +87,6 @@ export function Hero() {
           <button type="button" onClick={() => pedir("retirada")} className="botao botao-contorno">
             Retirar na loja
           </button>
-          <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className="link-seta ml-3 text-petroleo/90">
-            iFood
-            <IconeSetaExterna />
-          </a>
         </div>
         <p className="hidden lg:block mt-5 text-[15px] font-medium min-h-5 entrar" style={{ "--atraso": "560ms" } as React.CSSProperties}>
           {status ?? " "}
@@ -112,17 +107,7 @@ export function Hero() {
             Retirar
           </button>
         </div>
-        <div className="mt-1.5 flex items-center justify-between text-[13px]">
-          <span className="text-tinta-suave min-h-5">{status ?? ""}</span>
-          <a
-            href={LOJA.linkIfood}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 min-h-11 font-bold uppercase tracking-[0.06em]"
-          >
-            iFood <IconeSetaExterna />
-          </a>
-        </div>
+        <p className="mt-2 text-center text-tinta-suave text-[13px] min-h-5">{status ?? ""}</p>
       </div>
     </section>
   );

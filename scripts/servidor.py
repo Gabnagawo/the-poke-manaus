@@ -3,7 +3,7 @@ import mimetypes
 import os
 import socketserver
 
-PORT = 3005
+PORT = 3007
 DIRECTORY = os.path.abspath(".next-export")
 
 mimetypes.add_type("image/webp", ".webp")

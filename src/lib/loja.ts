@@ -1,5 +1,5 @@
 // Dados oficiais e constantes da loja The Poke Manaus
-// Fonte: Briefing — Site The Poke Manaus.md (iFood / Receita Federal)
+// Fonte: Briefing — Site The Poke Manaus.md (Receita Federal / briefing do cliente)
 // NUNCA invente dados fora das fontes oficiais.
 
 export const LOJA = {
@@ -19,9 +19,6 @@ export const LOJA = {
   fechaHora: 23,
   inauguracao: "26 de setembro de 2026",
   fundacaoRede: 2019,
-  pedidoMinimoIfood: 20.0,
-  linkIfood:
-    "https://www.ifood.com.br/delivery/manaus-am/the-poke-manaus-aleixo/dee1b578-6c35-43e2-9bb2-3f44122e401a",
   instagram: "https://www.instagram.com/thepokemanaus/",
   instagramHandle: "@thepokemanaus",
   redeInstagram: "https://www.instagram.com/thepokeoficial/",

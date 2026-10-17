@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { LOJA } from "@/lib/loja";
 import { Logo } from "@/components/ui/Logo";
-import { IconeInstagram, IconeSetaExterna } from "@/components/ui/Icones";
+import { IconeInstagram } from "@/components/ui/Icones";
 
 export function Footer() {
   const ano = 2026;
@@ -57,11 +57,6 @@ export function Footer() {
                 <Link href="/#cardapio" className={link}>
                   Pedir pelo site
                 </Link>
-              </li>
-              <li>
-                <a href={LOJA.linkIfood} target="_blank" rel="noopener noreferrer" className={link}>
-                  iFood <IconeSetaExterna />
-                </a>
               </li>
               <li className="pt-1 text-tinta-suave text-[14px]">Todos os dias, 11h às 23h</li>
             </ul>

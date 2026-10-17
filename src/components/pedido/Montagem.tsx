@@ -1,6 +1,6 @@
 "use client";
 
-// Janela "Monte seu poke": etapas com limites por tamanho (dados reais do iFood).
+// Janela "Monte seu poke": etapas com limites por tamanho (dados reais do briefing do cliente).
 // Celular: tela quase cheia vinda de baixo, abas das etapas fixas no topo e o total
 // fixo embaixo. Desktop: modal central com a mesma estrutura.
 

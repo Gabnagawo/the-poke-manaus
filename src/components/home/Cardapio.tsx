@@ -1,6 +1,6 @@
 "use client";
 
-// Cardápio completo, todas as categorias em sequência (como no iFood), com abas fixas que
+// Cardápio completo, todas as categorias em sequência (como no cardápio oficial), com abas fixas que
 // acompanham a rolagem. Celular: linhas compactas. Telas maiores: cards no molde Poke House.
 
 import { useEffect, useRef, useState } from "react";
@@ -219,7 +219,7 @@ export function Cardapio() {
           Peça por aqui
         </h2>
         <p className="mt-3 mx-auto max-w-[560px] text-[16px] md:text-[18px] leading-[1.45] text-tinta-suave">
-          Monte a sacola aqui e envie o pedido pelo WhatsApp. Se preferir, a loja também está no iFood.
+          Monte a sacola aqui e envie o pedido pelo WhatsApp.
         </p>
       </div>
 
